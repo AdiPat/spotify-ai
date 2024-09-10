@@ -1,11 +1,12 @@
 import { Command } from "commander";
+import { printSearchResults } from "./spotify";
 
 async function run() {
   const program = new Command();
 
   program
     .option(
-      "--get-similar <trackId> <N>",
+      "--get-similar --trackId <trackId> <N>",
       "Get N similar songs for a given Spotify track ID."
     )
     .option(
@@ -25,6 +26,8 @@ async function run() {
   const { trackId, N, name, playlistId, help } = opts;
 
   console.log("Options: ", opts);
+
+  await printSearchResults();
 
   process.exit(0);
 }
