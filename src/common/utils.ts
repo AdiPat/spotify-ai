@@ -1,8 +1,51 @@
 import { openai } from "@ai-sdk/openai";
 import { generateText } from "ai";
 import { customAlphabet } from "nanoid";
-
 import readline from "readline";
+import { zodToJsonSchema } from "zod-to-json-schema";
+import { z } from "zod";
+
+const AI_MODEL = openai("gpt-4o");
+
+export async function generateObject<T>({
+  schema,
+  schemaName,
+  prompt,
+  system = "",
+  temperature = 0.5,
+}: {
+  prompt: string;
+  schema: z.ZodObject<any>;
+  schemaName: string;
+  system?: string;
+  temperature?: number;
+}): Promise<{ object: T }> {
+  try {
+    const jsonSchema = zodToJsonSchema(schema, schemaName);
+
+    const paddedPrompt = `
+    ${prompt}
+    Return the response strictly in JSON as per the given schema.
+    Schema: ${JSON.stringify(jsonSchema)}
+    `;
+
+    const { text } = await generateText({
+      model: AI_MODEL,
+      system,
+      prompt: paddedPrompt,
+      temperature,
+    });
+
+    const json = Utils.cleanGPTJson(text);
+
+    const object: T = Utils.parseJSON(json);
+
+    return { object };
+  } catch (error) {
+    console.log("jungObject: generation of object failed", error);
+    return null;
+  }
+}
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -63,6 +106,7 @@ function generateRandomIntID(size = 16): number {
 }
 
 const Utils = {
+  generateObject,
   cleanGPTJson,
   summarize,
   isValidURL,
