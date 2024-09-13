@@ -13,6 +13,14 @@ async function run() {
       "--search-track <name> <N>",
       "Search for a Spotify track by name and get N results."
     )
+    .option(
+      "-ns, --natural-search",
+      "Search for a Spotify track by description and get N results."
+    )
+    .option(
+      "--description <description>",
+      "Search for a Spotify track by description."
+    )
     .option("--get-playlists", "Get all Spotify playlists.")
     .option(
       "--get-playlist-details <playlistId>",
@@ -23,7 +31,20 @@ async function run() {
 
   const opts = program.opts();
 
-  const { trackId, N, name, playlistId, help } = opts;
+  const { trackId, N, name, playlistId, naturalSearch, description, help } =
+    opts;
+
+  if (naturalSearch && !description) {
+    console.error(
+      "Error: Description is required for natural search. Pass it with --description. "
+    );
+    process.exit(1);
+  }
+
+  if (naturalSearch && description) {
+    console.log("Natural search with description: ", description);
+    process.exit(0);
+  }
 
   console.log("Options: ", opts);
 
