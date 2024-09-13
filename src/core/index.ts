@@ -40,6 +40,11 @@ async function run() {
 
   const verbose = Boolean(opts.verbose);
 
+  if (N !== undefined && isNaN(N)) {
+    console.error("Error: N must be a number.");
+    process.exit(1);
+  }
+
   if (naturalSearch && !description) {
     console.error(
       "Error: Description is required for natural search. Pass it with --description. "
@@ -52,6 +57,7 @@ async function run() {
     console.log("Natural search with description: ", description);
 
     const nlsOptions = {
+      limit: parseInt(N) || 5,
       printResults: true,
     };
 
