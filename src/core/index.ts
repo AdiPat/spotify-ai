@@ -21,6 +21,8 @@ async function run() {
       "--description <description>",
       "Search for a Spotify track by description."
     )
+    .option("--N <N>", "Number of results to return. Default is 5.")
+    .option("--verbose", "Print verbose output.")
     .option("--get-playlists", "Get all Spotify playlists.")
     .option(
       "--get-playlist-details <playlistId>",
@@ -36,6 +38,8 @@ async function run() {
   const { trackId, N, name, playlistId, naturalSearch, description, help } =
     opts;
 
+  const verbose = Boolean(opts.verbose);
+
   if (naturalSearch && !description) {
     console.error(
       "Error: Description is required for natural search. Pass it with --description. "
@@ -44,11 +48,10 @@ async function run() {
   }
 
   if (naturalSearch && description) {
-    const spotifyAI = new SpotifyAI();
+    const spotifyAI = new SpotifyAI({ verbose });
     console.log("Natural search with description: ", description);
 
     const nlsOptions = {
-      limit: N || 5,
       printResults: true,
     };
 

@@ -13,16 +13,21 @@ import { z } from "zod";
 
 export class SpotifyAI {
   private api: SpotifyApi;
+  private verbose: boolean;
 
   private static DEFAULT_LIMIT = 5;
 
   constructor(options?: SpotifyAIOptions) {
     options = options || {};
 
+    this.verbose = options.verbose == undefined ? false : options.verbose;
+
     if (!options.clientId || !options.clientSecret) {
-      console.error(
-        "SpotifyAI: Client ID and Client Secret not provided. Using environment variables."
-      );
+      if (this.verbose) {
+        console.error(
+          "SpotifyAI: Client ID and Client Secret not provided. Using environment variables."
+        );
+      }
 
       this.api = SpotifyApi.withClientCredentials(
         process.env.SPOTIFY_CLIENT_ID,
@@ -35,7 +40,9 @@ export class SpotifyAI {
       );
     }
 
-    console.log("SpotifyAI: Initialized.");
+    if (this.verbose) {
+      console.log("SpotifyAI: Initialized.");
+    }
   }
 
   /**
@@ -115,10 +122,13 @@ export class SpotifyAI {
 
       return recommendationsParams;
     } catch (error) {
-      console.log(
-        "generateRecommendationParams: generation of object failed",
-        error
-      );
+      if (this.verbose) {
+        console.log(
+          "generateRecommendationParams: generation of object failed",
+          error
+        );
+      }
+
       return null;
     }
   }
@@ -136,23 +146,40 @@ export class SpotifyAI {
     recommendationsParams.limit = options.limit;
 
     if (!recommendationsParams) {
-      console.error(
-        "naturalLanguageSearch: Failed to generate recommendations params."
-      );
+      if (this.verbose) {
+        console.error(
+          "naturalLanguageSearch: Failed to generate recommendations params."
+        );
+      }
       return;
     }
 
-    console.log(
-      "naturalLanguageSearch: Recommendations Params: ",
-      recommendationsParams
-    );
+    if (this.verbose) {
+      console.log(
+        "naturalLanguageSearch: Recommendations Params: ",
+        recommendationsParams
+      );
+    }
 
-    const recommendations = await this.api.recommendations.get(
-      recommendationsParams
-    );
+    const recommendations = await this.api.recommendations
+      .get(recommendationsParams)
+      .catch((error) => {
+        if (this.verbose) {
+          console.error(
+            "naturalLanguageSearch: Error getting recommendations",
+            error
+          );
+        }
+        return null;
+      });
+
+    if (!recommendations) {
+      console.error("naturalLanguageSearch: Failed to get recommendations.");
+      return [];
+    }
 
     if (options.printResults) {
-      const printableTracks = recommendations.tracks.map((track) => ({
+      const printableTracks = recommendations.tracks.map((track: Track) => ({
         id: track.id,
         name: track.name,
         artists: track.artists.map((artist) => artist.name).join(", "),
