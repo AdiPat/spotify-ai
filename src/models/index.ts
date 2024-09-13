@@ -1,1 +1,1 @@
-export {};
+export { GenreMetadata } from "./genre-metadata";
