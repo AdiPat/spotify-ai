@@ -1,0 +1,4054 @@
+[
+  {
+    "genre": "acoustic",
+    "description": "Acoustic music is characterized by the use of natural, non-electric instruments and often features a raw, unprocessed sound. This genre spans a wide range of styles and is known for its simplicity and intimate feel.",
+    "subgenres": [
+      "acoustic rock",
+      "acoustic pop",
+      "acoustic folk",
+      "unplugged",
+      "singer-songwriter"
+    ],
+    "instruments": [
+      "acoustic guitar",
+      "piano",
+      "violin",
+      "cello",
+      "double bass",
+      "harmonica",
+      "banjo",
+      "mandolin"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "12/8"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "nature",
+      "personal reflection",
+      "storytelling"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["North America", "Europe", "Australia", "Latin America"],
+    "mood": "intimate",
+    "popularity": 75
+  },
+  {
+    "genre": "afrobeat",
+    "description": "Afrobeat is a music genre that combines West African musical styles such as highlife and fuji music with American funk and jazz influences, characterized by complex rhythms, heavy percussion, and politically charged lyrics.",
+    "subgenres": ["Afrofunk", "Afro-soul", "Afro-jazz"],
+    "instruments": [
+      "drums",
+      "percussion",
+      "horns",
+      "guitar",
+      "bass guitar",
+      "keyboard",
+      "saxophone",
+      "trumpet"
+    ],
+    "rhythms": ["syncopated rhythms", "polyrhythms", "4/4 time signature"],
+    "lyricThemes": [
+      "politics",
+      "social issues",
+      "love",
+      "celebration",
+      "resistance"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["Nigeria", "Ghana", "West Africa"],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "alt-rock",
+    "description": "Alternative rock, often referred to as alt-rock, is a genre of rock music that emerged from the independent music underground of the 1980s and became widely popular in the 1990s. It is characterized by its diverse sound that often incorporates elements of punk rock, post-punk, and other genres.",
+    "subgenres": [
+      "grunge",
+      "indie rock",
+      "Britpop",
+      "shoegaze",
+      "post-grunge",
+      "noise rock"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "vocals",
+      "synthesizer"
+    ],
+    "rhythms": ["4/4 time signature", "syncopated rhythms", "driving beats"],
+    "lyricThemes": [
+      "introspection",
+      "rebellion",
+      "alienation",
+      "social issues",
+      "personal struggles"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": ["United States", "United Kingdom", "Australia", "Canada"],
+    "mood": "edgy",
+    "popularity": 85
+  },
+  {
+    "genre": "alternative",
+    "description": "Alternative music is a broad genre of rock music that emerged from the independent music underground of the 1980s and became widely popular in the 1990s. It is characterized by its diversity and its departure from mainstream rock and pop music.",
+    "subgenres": [
+      "alternative rock",
+      "indie rock",
+      "grunge",
+      "Britpop",
+      "shoegaze",
+      "post-punk",
+      "new wave",
+      "emo"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "keyboard",
+      "synthesizer"
+    ],
+    "rhythms": ["4/4", "syncopated", "polyrhythmic"],
+    "lyricThemes": [
+      "introspection",
+      "social issues",
+      "personal struggle",
+      "alienation",
+      "politics"
+    ],
+    "timePeriods": "1980s to present",
+    "regions": ["North America", "United Kingdom", "Australia", "Europe"],
+    "mood": "varied",
+    "popularity": 8.5
+  },
+  {
+    "genre": "ambient",
+    "description": "Ambient music is a genre that emphasizes tone and atmosphere over traditional musical structure or rhythm. It often features slow, evolving soundscapes and is designed to create a mood or atmosphere rather than to be listened to actively.",
+    "subgenres": [
+      "dark ambient",
+      "space ambient",
+      "drone ambient",
+      "ambient house",
+      "ambient techno"
+    ],
+    "instruments": [
+      "synthesizers",
+      "samplers",
+      "field recordings",
+      "guitar",
+      "piano"
+    ],
+    "rhythms": ["slow", "non-rhythmic", "minimalistic"],
+    "lyricThemes": [
+      "nature",
+      "space",
+      "meditation",
+      "isolation",
+      "tranquility"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Japan",
+      "Scandinavia"
+    ],
+    "mood": "calm",
+    "popularity": 7
+  },
+  {
+    "genre": "anime",
+    "description": "Anime music encompasses a variety of styles and genres, often used in Japanese animated series, films, and video games. It is characterized by its wide range of emotional expression and often features catchy melodies and dynamic orchestration.",
+    "subgenres": ["J-Pop", "J-Rock", "Anisong", "Vocaloid", "Chiptune"],
+    "instruments": [
+      "Electric Guitar",
+      "Synthesizer",
+      "Piano",
+      "Drums",
+      "Orchestral Strings"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8"],
+    "lyricThemes": ["Friendship", "Adventure", "Love", "Fantasy", "Courage"],
+    "timePeriods": "1980s to present",
+    "regions": ["Japan"],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "black-metal",
+    "description": "Black metal is an extreme subgenre of heavy metal music that often features fast tempos, shrieking vocal styles, heavily distorted guitars played with tremolo picking, raw recording, and unconventional song structures. It is known for its dark, atmospheric sound and themes that often explore topics like Satanism, paganism, and nature.",
+    "subgenres": [
+      "atmospheric black metal",
+      "symphonic black metal",
+      "depressive suicidal black metal",
+      "raw black metal",
+      "blackened death metal"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "keyboard",
+      "vocals"
+    ],
+    "rhythms": ["blast beat", "tremolo picking", "double bass drumming"],
+    "lyricThemes": [
+      "Satanism",
+      "paganism",
+      "nature",
+      "depression",
+      "anti-religion"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": ["Norway", "Sweden", "Finland", "United States", "France"],
+    "mood": "dark",
+    "popularity": 6.5
+  },
+  {
+    "genre": "bluegrass",
+    "description": "Bluegrass is a genre of American roots music that developed in the 1940s in the United States. It has roots in Irish, Scottish, and English traditional music, and was later influenced by African-American jazz and blues. Bluegrass is characterized by its use of acoustic string instruments and its emphasis on improvisation and harmony singing.",
+    "subgenres": [
+      "traditional bluegrass",
+      "progressive bluegrass",
+      "neo-traditional bluegrass",
+      "gospel bluegrass",
+      "newgrass"
+    ],
+    "instruments": [
+      "banjo",
+      "fiddle",
+      "guitar",
+      "mandolin",
+      "double bass",
+      "dobro"
+    ],
+    "rhythms": ["fast-paced", "syncopated", "off-beat", "driving rhythm"],
+    "lyricThemes": [
+      "love",
+      "heartache",
+      "nature",
+      "religion",
+      "daily life",
+      "historical events"
+    ],
+    "timePeriods": "1940s-present",
+    "regions": [
+      "Appalachian Mountains",
+      "Southern United States",
+      "Midwestern United States"
+    ],
+    "mood": "upbeat",
+    "popularity": 70
+  },
+  {
+    "genre": "blues",
+    "description": "Blues is a music genre and musical form which originated in the Deep South of the United States around the 1860s. It is characterized by its use of specific chord progressions, the most common being the twelve-bar blues. The genre is also known for its use of the blues scale and specific lyrical themes, often focusing on personal adversity and emotional expression.",
+    "subgenres": [
+      "Delta Blues",
+      "Chicago Blues",
+      "Texas Blues",
+      "Piedmont Blues",
+      "Electric Blues"
+    ],
+    "instruments": [
+      "Guitar",
+      "Harmonica",
+      "Piano",
+      "Bass",
+      "Drums",
+      "Saxophone"
+    ],
+    "rhythms": [
+      "12-bar blues",
+      "8-bar blues",
+      "Shuffle rhythm",
+      "Boogie-woogie"
+    ],
+    "lyricThemes": [
+      "Heartache",
+      "Struggle",
+      "Love",
+      "Resilience",
+      "Loneliness"
+    ],
+    "timePeriods": "1860s-present",
+    "regions": ["United States", "United Kingdom", "Europe"],
+    "mood": "Melancholic",
+    "popularity": 7.5
+  },
+  {
+    "genre": "bossanova",
+    "description": "Bossa nova is a genre of Brazilian music that originated in the late 1950s. It is characterized by its smooth and relaxed style, often incorporating elements of samba and jazz.",
+    "subgenres": ["Samba Jazz", "Bossa Nova Jazz", "Tropicalia"],
+    "instruments": [
+      "Classical Guitar",
+      "Piano",
+      "Double Bass",
+      "Drums",
+      "Flute",
+      "Saxophone"
+    ],
+    "rhythms": ["Syncopated", "Swing", "Samba"],
+    "lyricThemes": ["Love", "Nature", "Melancholy", "Urban Life"],
+    "timePeriods": "Late 1950s to Present",
+    "regions": ["Brazil", "United States", "Europe"],
+    "mood": "Relaxed",
+    "popularity": 75
+  },
+  {
+    "genre": "brazil",
+    "description": "The 'brazil' genre encompasses a wide range of musical styles originating from Brazil, characterized by rich rhythms, diverse instruments, and vibrant cultural influences.",
+    "subgenres": [
+      "Samba",
+      "Bossa Nova",
+      "Tropicália",
+      "Forró",
+      "MPB (Música Popular Brasileira)",
+      "Choro",
+      "Axé",
+      "Funk Carioca",
+      "Sertanejo"
+    ],
+    "instruments": [
+      "Guitar",
+      "Cavaquinho",
+      "Pandeiro",
+      "Berimbau",
+      "Cuica",
+      "Tamborim",
+      "Surdo",
+      "Accordion",
+      "Flute"
+    ],
+    "rhythms": [
+      "Samba",
+      "Bossa Nova",
+      "Forró",
+      "Baião",
+      "Maracatu",
+      "Frevo",
+      "Axé",
+      "Pagode"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Nature",
+      "Celebration",
+      "Social Issues",
+      "Politics",
+      "Daily Life",
+      "Festivities"
+    ],
+    "timePeriods": "20th century to present",
+    "regions": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Bahia",
+      "Pernambuco",
+      "Minas Gerais",
+      "Northeast Brazil"
+    ],
+    "mood": "Vibrant",
+    "popularity": 8.5
+  },
+  {
+    "genre": "breakbeat",
+    "description": "Breakbeat is a genre of electronic music characterized by the use of non-straightened, syncopated breakbeat drum patterns, typically between 120 and 140 BPM. It emerged in the 1980s and 1990s, heavily influenced by hip-hop and funk, and often features complex, layered drum sequences.",
+    "subgenres": [
+      "Nu Skool Breaks",
+      "Big Beat",
+      "Jungle",
+      "Drum and Bass",
+      "Hardcore Breaks",
+      "Breakcore"
+    ],
+    "instruments": [
+      "Drum machines",
+      "Synthesizers",
+      "Samplers",
+      "Turntables",
+      "Electric bass"
+    ],
+    "rhythms": ["Syncopated drum patterns", "Breakbeats", "Polyrhythms"],
+    "lyricThemes": ["Party", "Urban life", "Social issues", "Abstract"],
+    "timePeriods": "1980s to present",
+    "regions": ["United Kingdom", "United States", "Europe"],
+    "mood": "Energetic",
+    "popularity": 70
+  },
+  {
+    "genre": "british",
+    "description": "British music encompasses a wide variety of styles and genres that have originated from the United Kingdom. It is known for its rich history and significant influence on global music trends.",
+    "subgenres": [
+      "Britpop",
+      "British Invasion",
+      "UK Garage",
+      "British Folk",
+      "British Grime",
+      "British Punk",
+      "British Rock",
+      "British Electronica"
+    ],
+    "instruments": [
+      "Electric Guitar",
+      "Acoustic Guitar",
+      "Bass Guitar",
+      "Drums",
+      "Synthesizer",
+      "Piano",
+      "Violin",
+      "Bagpipes"
+    ],
+    "rhythms": ["4/4", "3/4", "2/4", "6/8"],
+    "lyricThemes": [
+      "Love",
+      "Social Commentary",
+      "Political Issues",
+      "Life Experiences",
+      "Fantasy",
+      "Historical Events"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": [
+      "United Kingdom",
+      "England",
+      "Scotland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "mood": "Varied",
+    "popularity": 8.5
+  },
+  {
+    "genre": "cantopop",
+    "description": "Cantopop, short for Cantonese pop music, is a genre of popular music written in standard modern Chinese and sung in Cantonese. It is a major part of the Hong Kong music industry and also enjoys popularity in other Cantonese-speaking communities.",
+    "subgenres": ["Cantonese Rock", "Cantonese Hip Hop", "Cantonese Ballad"],
+    "instruments": [
+      "Electric Guitar",
+      "Bass Guitar",
+      "Drums",
+      "Keyboard",
+      "Synthesizer"
+    ],
+    "rhythms": ["4/4 time signature", "Syncopated rhythms", "Ballad tempo"],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "City life",
+      "Personal growth",
+      "Social issues"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": [
+      "Hong Kong",
+      "Macau",
+      "Guangdong",
+      "Overseas Chinese communities"
+    ],
+    "mood": "Emotional",
+    "popularity": 85
+  },
+  {
+    "genre": "chicago-house",
+    "description": "Chicago House is a genre of electronic dance music that originated in Chicago in the early 1980s. It is characterized by its use of repetitive 4/4 beats, synthesized basslines, and soulful vocals. The genre was heavily influenced by disco, and it played a significant role in the development of modern electronic dance music.",
+    "subgenres": ["Acid House", "Deep House", "Ghetto House"],
+    "instruments": ["Drum Machine", "Synthesizer", "Sampler", "Turntables"],
+    "rhythms": ["4/4 Beat", "Syncopated Bassline"],
+    "lyricThemes": ["Love", "Dancing", "Partying", "Social Issues"],
+    "timePeriods": "1980s to present",
+    "regions": ["Chicago", "United States", "Global"],
+    "mood": "Energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "children",
+    "description": "Children's music is designed to be engaging, educational, and entertaining for young audiences. It often features simple melodies, repetitive structures, and playful lyrics that are easy for children to understand and sing along with.",
+    "subgenres": [
+      "nursery rhymes",
+      "lullabies",
+      "educational songs",
+      "children's folk music",
+      "cartoon theme songs"
+    ],
+    "instruments": [
+      "acoustic guitar",
+      "piano",
+      "ukulele",
+      "drums",
+      "xylophone"
+    ],
+    "rhythms": ["simple 4/4 time", "waltz (3/4 time)", "marching rhythms"],
+    "lyricThemes": [
+      "animals",
+      "friendship",
+      "family",
+      "learning",
+      "imagination",
+      "nature",
+      "bedtime"
+    ],
+    "timePeriods": "spanning from traditional to contemporary",
+    "regions": ["global"],
+    "mood": "playful, cheerful, and educational",
+    "popularity": 80
+  },
+  {
+    "genre": "chill",
+    "description": "Chill music is characterized by its relaxed, mellow, and laid-back vibes. It often features smooth melodies, soft beats, and soothing vocals or instrumental arrangements, making it perfect for unwinding and relaxation.",
+    "subgenres": [
+      "chillout",
+      "ambient",
+      "lo-fi",
+      "downtempo",
+      "chillwave",
+      "trip-hop"
+    ],
+    "instruments": [
+      "synthesizer",
+      "guitar",
+      "piano",
+      "drum machine",
+      "bass guitar",
+      "vocals"
+    ],
+    "rhythms": ["slow", "mid-tempo", "syncopated", "steady beat"],
+    "lyricThemes": [
+      "relaxation",
+      "introspection",
+      "nature",
+      "love",
+      "melancholy",
+      "escapism"
+    ],
+    "timePeriods": "1990s to present",
+    "regions": ["global"],
+    "mood": "relaxed",
+    "popularity": 8.5
+  },
+  {
+    "genre": "classical",
+    "description": "Classical music is a broad term that usually refers to the music produced in, or rooted in the traditions of Western liturgical and secular music, encompassing a broad period from roughly the 11th century to the present day.",
+    "subgenres": [
+      "Baroque",
+      "Romantic",
+      "Classical Period",
+      "Contemporary Classical",
+      "Early Music",
+      "Renaissance"
+    ],
+    "instruments": [
+      "violin",
+      "piano",
+      "cello",
+      "flute",
+      "oboe",
+      "clarinet",
+      "harpsichord",
+      "organ",
+      "trumpet",
+      "trombone"
+    ],
+    "rhythms": [
+      "waltz",
+      "minuet",
+      "scherzo",
+      "march",
+      "aria",
+      "sonata-allegro"
+    ],
+    "lyricThemes": [
+      "nature",
+      "love",
+      "mythology",
+      "religion",
+      "tragedy",
+      "heroism"
+    ],
+    "timePeriods": "11th century to present day",
+    "regions": ["Europe", "North America", "Asia"],
+    "mood": "varied (can be serene, dramatic, joyful, somber, etc.)",
+    "popularity": 7.5
+  },
+  {
+    "genre": "club",
+    "description": "Club music is a genre designed to be played in nightclubs, featuring a strong beat and rhythm to encourage dancing. It often includes elements from various other genres such as electronic, house, and hip-hop.",
+    "subgenres": ["house", "techno", "trance", "electro", "dubstep"],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "turntables",
+      "computer"
+    ],
+    "rhythms": ["four-on-the-floor", "syncopated", "breakbeat"],
+    "lyricThemes": ["partying", "love", "nightlife", "escapism", "celebration"],
+    "timePeriods": "1980s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Sweden"
+    ],
+    "mood": "energetic",
+    "popularity": 80
+  },
+  {
+    "genre": "comedy",
+    "description": "Comedy music is a genre that combines musical elements with humorous content, aiming to entertain and amuse listeners. It often features witty lyrics, parodies, and satirical takes on various subjects.",
+    "subgenres": [
+      "musical comedy",
+      "parody",
+      "novelty songs",
+      "satirical music",
+      "comedy rock",
+      "comedy rap"
+    ],
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "synthesizer",
+      "ukulele",
+      "accordion"
+    ],
+    "rhythms": ["upbeat", "syncopated", "swing", "march", "polka"],
+    "lyricThemes": [
+      "humor",
+      "parody",
+      "satire",
+      "social commentary",
+      "absurdity",
+      "wordplay",
+      "storytelling"
+    ],
+    "timePeriods": "20th century to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Europe"
+    ],
+    "mood": "lighthearted",
+    "popularity": 7.5
+  },
+  {
+    "genre": "country",
+    "description": "Country music is a genre of popular music that originated with blues, old-time music, and various types of American folk music including Appalachian, Cajun, Creole, and Western. It often consists of ballads and dance tunes with simple form, folk lyrics, and harmonies generally accompanied by instruments such as banjos, fiddles, harmonicas, and various types of guitars.",
+    "subgenres": [
+      "Bluegrass",
+      "Honky Tonk",
+      "Outlaw Country",
+      "Country Pop",
+      "Alternative Country",
+      "Bro-Country",
+      "Country Rock",
+      "Western Swing"
+    ],
+    "instruments": [
+      "Acoustic guitar",
+      "Electric guitar",
+      "Banjo",
+      "Fiddle",
+      "Harmonica",
+      "Dobro",
+      "Mandolin",
+      "Pedal steel guitar",
+      "Bass guitar",
+      "Drums"
+    ],
+    "rhythms": ["4/4 time", "Waltz", "Two-step", "Shuffle"],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Rural life",
+      "Patriotism",
+      "Family",
+      "Hard work",
+      "Good times",
+      "Loss",
+      "Resilience"
+    ],
+    "timePeriods": "1920s to present",
+    "regions": [
+      "Southern United States",
+      "Nashville, Tennessee",
+      "Texas",
+      "Appalachia",
+      "California",
+      "Australia",
+      "Canada"
+    ],
+    "mood": "Nostalgic",
+    "popularity": 85
+  },
+  {
+    "genre": "dance",
+    "description": "Dance music is a genre of music composed specifically to facilitate or accompany dancing. It can be either an entire musical piece or part of a larger musical arrangement. Dance music includes a wide range of styles, from traditional forms such as waltz and tango to contemporary genres like house, techno, and electronic dance music (EDM).",
+    "subgenres": [
+      "house",
+      "techno",
+      "trance",
+      "dubstep",
+      "drum and bass",
+      "disco",
+      "electro",
+      "EDM",
+      "dance-pop",
+      "funky house"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "turntables",
+      "sampler",
+      "keyboard",
+      "bass guitar",
+      "electric guitar",
+      "vocals"
+    ],
+    "rhythms": [
+      "4/4 beat",
+      "syncopated rhythms",
+      "breakbeat",
+      "polyrhythms",
+      "groove"
+    ],
+    "lyricThemes": [
+      "love",
+      "partying",
+      "celebration",
+      "dance",
+      "freedom",
+      "escapism",
+      "youth culture"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "South America",
+      "Australia"
+    ],
+    "mood": "energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "dancehall",
+    "description": "Dancehall is a genre of Jamaican popular music that originated in the late 1970s. Initially, dancehall was a more sparse version of reggae than the roots style, which had dominated much of the 1970s. In the mid-1980s, digital instrumentation became more prevalent, changing the sound considerably and leading to the 'ragga' style. Dancehall music is characterized by its upbeat rhythms, heavy basslines, and the use of toasting (a form of vocal delivery that is a precursor to rapping).",
+    "subgenres": ["ragga", "bashment", "digital dancehall"],
+    "instruments": [
+      "drum machine",
+      "synthesizer",
+      "electric guitar",
+      "bass guitar"
+    ],
+    "rhythms": ["four-on-the-floor", "syncopated rhythms", "riddims"],
+    "lyricThemes": ["party", "dance", "social issues", "romance"],
+    "timePeriods": "late 1970s to present",
+    "regions": ["Jamaica", "Caribbean", "United States", "United Kingdom"],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "death-metal",
+    "description": "Death metal is a subgenre of heavy metal music that typically employs heavily distorted guitars, deep growling vocals, aggressive drumming, and complex song structures. It often incorporates themes of darkness, death, and the macabre.",
+    "subgenres": [
+      "technical death metal",
+      "melodic death metal",
+      "brutal death metal",
+      "death-doom",
+      "blackened death metal"
+    ],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": [
+      "blast beats",
+      "double bass drumming",
+      "syncopation",
+      "tremolo picking"
+    ],
+    "lyricThemes": ["death", "violence", "occult", "nihilism", "mythology"],
+    "timePeriods": "mid-1980s to present",
+    "regions": [
+      "United States",
+      "Sweden",
+      "United Kingdom",
+      "Germany",
+      "Finland"
+    ],
+    "mood": "aggressive",
+    "popularity": 65
+  },
+  {
+    "genre": "deep-house",
+    "description": "Deep house is a subgenre of house music that originated in the 1980s, blending elements of Chicago house with jazz-funk and soul music. It is characterized by its complex melodies, use of chords, and a generally more laid-back, mellow feel compared to other house music styles.",
+    "subgenres": [
+      "soulful house",
+      "garage house",
+      "classic house",
+      "progressive house"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "keyboard",
+      "sampler",
+      "bass guitar"
+    ],
+    "rhythms": ["4/4 beat", "syncopated rhythms", "steady tempo"],
+    "lyricThemes": [
+      "love",
+      "introspection",
+      "emotional expression",
+      "nightlife"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": ["United States", "United Kingdom", "Europe", "South Africa"],
+    "mood": "chill",
+    "popularity": 75
+  },
+  {
+    "genre": "detroit-techno",
+    "description": "Detroit techno is a genre of electronic dance music that emerged in the mid-1980s in Detroit, Michigan. It is characterized by its use of repetitive, mechanized rhythms, and futuristic themes, often incorporating elements of funk, electro, and Chicago house.",
+    "subgenres": ["minimal techno", "tech house", "acid techno"],
+    "instruments": ["synthesizers", "drum machines", "sequencers", "samplers"],
+    "rhythms": ["4/4 beat", "syncopated rhythms", "polyrhythms"],
+    "lyricThemes": [
+      "futurism",
+      "technology",
+      "urban life",
+      "abstract concepts"
+    ],
+    "timePeriods": "1980s to present",
+    "regions": ["Detroit", "Berlin", "London", "Tokyo"],
+    "mood": "futuristic",
+    "popularity": 75
+  },
+  {
+    "genre": "disco",
+    "description": "Disco is a genre of dance music and a subculture that emerged in the 1970s from the United States' urban nightlife scene. It is characterized by a steady four-on-the-floor beat, syncopated basslines, and rich orchestral arrangements.",
+    "subgenres": ["Italo disco", "Euro disco", "Space disco", "Nu-disco"],
+    "instruments": [
+      "Electric guitar",
+      "Bass guitar",
+      "Drums",
+      "Synthesizer",
+      "Strings",
+      "Brass",
+      "Percussion"
+    ],
+    "rhythms": ["Four-on-the-floor", "Syncopated bassline", "Hi-hat pattern"],
+    "lyricThemes": ["Love", "Dancing", "Nightlife", "Empowerment"],
+    "timePeriods": "1970s-1980s",
+    "regions": ["United States", "Europe"],
+    "mood": "Upbeat",
+    "popularity": 8.5
+  },
+  {
+    "genre": "disney",
+    "description": "Disney music encompasses a wide range of songs and scores from Disney movies, TV shows, and theme parks. It is known for its catchy melodies, orchestral arrangements, and family-friendly lyrics.",
+    "subgenres": [
+      "Disney Classics",
+      "Disney Channel Hits",
+      "Disney Princess",
+      "Disney Villains",
+      "Disney Instrumentals"
+    ],
+    "instruments": [
+      "orchestra",
+      "piano",
+      "guitar",
+      "drums",
+      "strings",
+      "brass",
+      "woodwinds"
+    ],
+    "rhythms": ["4/4", "3/4", "2/4"],
+    "lyricThemes": [
+      "adventure",
+      "love",
+      "friendship",
+      "magic",
+      "dreams",
+      "heroism"
+    ],
+    "timePeriods": "1930s-present",
+    "regions": ["United States", "Worldwide"],
+    "mood": "uplifting",
+    "popularity": 85
+  },
+  {
+    "genre": "drum-and-bass",
+    "description": "Drum and bass (also written as drum 'n' bass; abbreviated as DnB, D&B, or D'n'B) is a genre of electronic music characterized by fast breakbeats (typically between 160-180 BPM) with heavy bass and sub-bass lines, synthesizers, and samples.",
+    "subgenres": [
+      "Liquid Funk",
+      "Jump-Up",
+      "Neurofunk",
+      "Darkstep",
+      "Techstep",
+      "Jungle"
+    ],
+    "instruments": [
+      "Synthesizer",
+      "Drum Machine",
+      "Sampler",
+      "Turntables",
+      "Bass Guitar"
+    ],
+    "rhythms": ["Breakbeat", "Two-Step", "Amen Break"],
+    "lyricThemes": ["Urban Life", "Technology", "Futurism", "Social Issues"],
+    "timePeriods": "1990s to present",
+    "regions": [
+      "United Kingdom",
+      "United States",
+      "Canada",
+      "Australia",
+      "New Zealand"
+    ],
+    "mood": "Energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "dub",
+    "description": "Dub is a genre of electronic music that grew out of reggae in the 1960s and 1970s. It is characterized by a strong emphasis on bass and drum, with extensive use of reverb, echo, and other sound effects to create a spacious, atmospheric soundscape.",
+    "subgenres": [
+      "Dub Reggae",
+      "Dubstep",
+      "Dub Techno",
+      "Roots Dub",
+      "Digital Dub"
+    ],
+    "instruments": [
+      "Bass Guitar",
+      "Drum Kit",
+      "Synthesizer",
+      "Sampler",
+      "Mixing Console"
+    ],
+    "rhythms": ["One Drop", "Steppers", "Rockers", "Half-Time"],
+    "lyricThemes": [
+      "Social Issues",
+      "Spirituality",
+      "Peace",
+      "Resistance",
+      "Love"
+    ],
+    "timePeriods": "1960s to Present",
+    "regions": [
+      "Jamaica",
+      "United Kingdom",
+      "United States",
+      "Germany",
+      "Japan"
+    ],
+    "mood": "Atmospheric",
+    "popularity": 7.5
+  },
+  {
+    "genre": "dubstep",
+    "description": "Dubstep is a genre of electronic dance music that originated in South London in the late 1990s. It is characterized by its heavy basslines, syncopated rhythms, and use of sub-bass frequencies.",
+    "subgenres": ["Brostep", "Post-dubstep", "Riddim", "Future Garage"],
+    "instruments": [
+      "Synthesizer",
+      "Drum Machine",
+      "Sampler",
+      "Turntables",
+      "Computer"
+    ],
+    "rhythms": ["2-step", "Half-time", "Wobble Bass"],
+    "lyricThemes": ["Urban Life", "Party", "Abstract", "Futuristic"],
+    "timePeriods": "Late 1990s - Present",
+    "regions": ["United Kingdom", "United States", "Canada", "Australia"],
+    "mood": "Energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "edm",
+    "description": "Electronic Dance Music (EDM) is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. It is generally produced for playback by disc jockeys (DJs) who create seamless selections of tracks, called a mix, by segueing from one recording to another.",
+    "subgenres": [
+      "house",
+      "techno",
+      "trance",
+      "dubstep",
+      "drum and bass",
+      "electro house",
+      "future bass"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "turntables",
+      "computer"
+    ],
+    "rhythms": ["four-on-the-floor", "syncopated rhythms", "breakbeats"],
+    "lyricThemes": ["party", "love", "escapism", "euphoria", "dance"],
+    "timePeriods": "1980s-present",
+    "regions": [
+      "Global",
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Netherlands",
+      "Sweden"
+    ],
+    "mood": "energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "electro",
+    "description": "Electro is a genre of electronic music characterized by the use of drum machines, synthesizers, and funk-oriented rhythms. It emerged in the early 1980s and often incorporates elements of hip hop and funk.",
+    "subgenres": [
+      "electro-funk",
+      "electroclash",
+      "electro house",
+      "electropop",
+      "dark electro",
+      "freestyle"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "keyboard",
+      "vocoders"
+    ],
+    "rhythms": [
+      "syncopated",
+      "four-on-the-floor",
+      "breakbeat",
+      "funky grooves"
+    ],
+    "lyricThemes": ["futurism", "technology", "dystopia", "party", "dance"],
+    "timePeriods": "1980s-present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Japan"
+    ],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "electronic",
+    "description": "Electronic music is a genre that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its production. It encompasses a wide range of styles and subgenres, often characterized by the use of synthesizers, drum machines, and computer software.",
+    "subgenres": [
+      "House",
+      "Techno",
+      "Dubstep",
+      "Drum and Bass",
+      "Trance",
+      "Ambient",
+      "Electro",
+      "Synthwave",
+      "IDM (Intelligent Dance Music)",
+      "EDM (Electronic Dance Music)"
+    ],
+    "instruments": [
+      "Synthesizer",
+      "Drum Machine",
+      "Sampler",
+      "Sequencer",
+      "Turntables",
+      "Computer"
+    ],
+    "rhythms": [
+      "4/4 beat",
+      "Breakbeat",
+      "Syncopation",
+      "Polyrhythms",
+      "Triplets"
+    ],
+    "lyricThemes": [
+      "Futurism",
+      "Technology",
+      "Love",
+      "Existentialism",
+      "Escapism",
+      "Party",
+      "Abstract concepts"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": [
+      "Global",
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Japan",
+      "Netherlands"
+    ],
+    "mood": "Varied (can range from energetic and uplifting to dark and moody)",
+    "popularity": 85
+  },
+  {
+    "genre": "emo",
+    "description": "Emo is a style of rock music characterized by expressive, often confessional, lyrics. It emerged from the hardcore punk scene in the mid-1980s and became a more mainstream genre in the early 2000s.",
+    "subgenres": [
+      "screamo",
+      "emocore",
+      "midwest emo",
+      "emo pop",
+      "post-emo indie rock"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "vocals",
+      "synthesizer"
+    ],
+    "rhythms": ["4/4 time signature", "syncopated rhythms", "dynamic shifts"],
+    "lyricThemes": [
+      "emotional pain",
+      "heartbreak",
+      "introspection",
+      "personal struggles",
+      "relationships"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Japan",
+      "Germany",
+      "Australia"
+    ],
+    "mood": "emotional",
+    "popularity": 75
+  },
+  {
+    "genre": "folk",
+    "description": "Folk music is a genre that encompasses traditional and contemporary music rooted in the cultural and social experiences of people. It often features acoustic instruments and emphasizes storytelling through its lyrics.",
+    "subgenres": [
+      "Contemporary Folk",
+      "Folk Rock",
+      "Indie Folk",
+      "Traditional Folk",
+      "Folk Pop",
+      "Folk Blues",
+      "Folk Punk"
+    ],
+    "instruments": [
+      "Acoustic Guitar",
+      "Banjo",
+      "Fiddle",
+      "Mandolin",
+      "Harmonica",
+      "Accordion",
+      "Double Bass"
+    ],
+    "rhythms": ["Simple", "Compound", "Waltz", "Jig", "Reel"],
+    "lyricThemes": [
+      "Love",
+      "Nature",
+      "Social Issues",
+      "Historical Events",
+      "Personal Stories",
+      "Tradition",
+      "Community"
+    ],
+    "timePeriods": "Medieval to Present",
+    "regions": [
+      "North America",
+      "Europe",
+      "Latin America",
+      "Asia",
+      "Africa",
+      "Australia"
+    ],
+    "mood": "Reflective",
+    "popularity": 75
+  },
+  {
+    "genre": "forro",
+    "description": "Forró is a genre of music that originated in the Northeast region of Brazil. It encompasses various dance styles as well as a musical genre, which is often characterized by its upbeat tempo and use of traditional instruments.",
+    "subgenres": ["Baião", "Xote", "Coco", "Arrasta-pé"],
+    "instruments": ["Accordion", "Zabumba", "Triangle", "Guitar"],
+    "rhythms": ["Baião", "Xote", "Coco", "Arrasta-pé"],
+    "lyricThemes": ["Love", "Daily Life", "Festivities", "Nature"],
+    "timePeriods": "1940s to present",
+    "regions": ["Northeast Brazil", "Southeast Brazil"],
+    "mood": "Festive",
+    "popularity": 75
+  },
+  {
+    "genre": "french",
+    "description": "French music encompasses a wide variety of styles and genres that have evolved over centuries, reflecting the rich cultural heritage of France. It includes traditional folk music, classical compositions, chanson, pop, rock, electronic, and hip-hop.",
+    "subgenres": [
+      "Chanson",
+      "French Pop",
+      "French Rock",
+      "French Hip-Hop",
+      "French Electronic",
+      "Musette",
+      "Yé-yé",
+      "French Jazz",
+      "French Classical"
+    ],
+    "instruments": [
+      "Accordion",
+      "Guitar",
+      "Piano",
+      "Violin",
+      "Drums",
+      "Synthesizer",
+      "Bass Guitar",
+      "Clarinet",
+      "Saxophone"
+    ],
+    "rhythms": [
+      "Waltz",
+      "Bal-musette",
+      "Chanson rhythm",
+      "Electronic beats",
+      "Hip-hop beats",
+      "Jazz rhythms",
+      "Rock rhythms"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Social issues",
+      "Life in France",
+      "Nostalgia",
+      "Rebellion",
+      "Celebration",
+      "Existentialism",
+      "Romance"
+    ],
+    "timePeriods": "Medieval to Contemporary",
+    "regions": [
+      "Île-de-France",
+      "Provence",
+      "Brittany",
+      "Occitanie",
+      "Corsica",
+      "Alsace",
+      "Normandy",
+      "Burgundy"
+    ],
+    "mood": "Varied",
+    "popularity": 75
+  },
+  {
+    "genre": "funk",
+    "description": "Funk is a music genre that originated in the mid-1960s, characterized by a strong rhythmic groove of electric bass and drums, often with syncopated patterns and a focus on danceable beats. It combines elements of soul, jazz, and R&B.",
+    "subgenres": ["P-Funk", "G-Funk", "Boogie", "Funk Rock", "Funk Metal"],
+    "instruments": [
+      "electric bass",
+      "drums",
+      "electric guitar",
+      "keyboard",
+      "brass instruments",
+      "synthesizer"
+    ],
+    "rhythms": ["syncopation", "16th-note groove", "off-beat", "backbeat"],
+    "lyricThemes": ["party", "social issues", "love", "dance", "freedom"],
+    "timePeriods": "1960s-present",
+    "regions": ["United States", "United Kingdom", "Brazil", "Japan"],
+    "mood": "energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "garage",
+    "description": "Garage rock is a raw and energetic style of rock and roll that emerged in the mid-1960s. It is characterized by its DIY ethos, simple and direct musical structure, and a lo-fi sound that often results from amateur recording techniques.",
+    "subgenres": [
+      "garage punk",
+      "garage pop",
+      "garage blues",
+      "psychedelic garage"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "vocals",
+      "keyboard"
+    ],
+    "rhythms": ["4/4 time", "straight eighth notes", "simple backbeat"],
+    "lyricThemes": [
+      "youth rebellion",
+      "love and relationships",
+      "social issues",
+      "personal freedom"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["United States", "United Kingdom", "Australia", "Canada"],
+    "mood": "energetic",
+    "popularity": 60
+  },
+  {
+    "genre": "german",
+    "description": "German music encompasses a wide range of genres, reflecting the country's rich cultural heritage and contemporary trends. It includes traditional folk music, classical compositions, and modern genres like pop, rock, and electronic music.",
+    "subgenres": [
+      "Schlager",
+      "Neue Deutsche Welle",
+      "Krautrock",
+      "German Hip Hop",
+      "German Pop",
+      "German Classical",
+      "Techno",
+      "Industrial"
+    ],
+    "instruments": [
+      "Accordion",
+      "Violin",
+      "Guitar",
+      "Piano",
+      "Synthesizer",
+      "Drums",
+      "Bass",
+      "Trumpet"
+    ],
+    "rhythms": ["4/4", "3/4", "2/4", "6/8"],
+    "lyricThemes": [
+      "Love",
+      "Nature",
+      "Social Issues",
+      "History",
+      "Party",
+      "Melancholy",
+      "Fantasy",
+      "Patriotism"
+    ],
+    "timePeriods": "From the medieval period to contemporary times",
+    "regions": [
+      "Bavaria",
+      "Berlin",
+      "Hamburg",
+      "Cologne",
+      "Saxony",
+      "Rhineland",
+      "Baden-Württemberg"
+    ],
+    "mood": "Varied, ranging from upbeat and lively to reflective and somber",
+    "popularity": 75
+  },
+  {
+    "genre": "gospel",
+    "description": "Gospel music is a genre of Christian music that is characterized by dominant vocals and strong use of harmony with Christian lyrics. It is known for its powerful and emotive vocal delivery, often accompanied by piano, organ, drums, and bass.",
+    "subgenres": [
+      "Traditional Gospel",
+      "Contemporary Gospel",
+      "Southern Gospel",
+      "Urban Gospel",
+      "Gospel Blues",
+      "Gospel Rap"
+    ],
+    "instruments": [
+      "Piano",
+      "Organ",
+      "Drums",
+      "Bass Guitar",
+      "Electric Guitar",
+      "Choir"
+    ],
+    "rhythms": ["4/4 time", "6/8 time", "Syncopation"],
+    "lyricThemes": [
+      "Faith",
+      "Worship",
+      "Salvation",
+      "Praise",
+      "Hope",
+      "Testimony"
+    ],
+    "timePeriods": "1930s to present",
+    "regions": ["United States", "Africa", "Caribbean", "Europe"],
+    "mood": "Inspirational",
+    "popularity": 75
+  },
+  {
+    "genre": "goth",
+    "description": "Goth music is a genre that emerged in the late 1970s and early 1980s, characterized by its dark, melancholic, and often romantic aesthetic. It often features a blend of post-punk, darkwave, and gothic rock elements.",
+    "subgenres": [
+      "gothic rock",
+      "darkwave",
+      "deathrock",
+      "ethereal wave",
+      "coldwave"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "synthesizer",
+      "drum machine",
+      "keyboard"
+    ],
+    "rhythms": [
+      "steady mid-tempo beats",
+      "syncopated rhythms",
+      "driving basslines"
+    ],
+    "lyricThemes": [
+      "romanticism",
+      "melancholy",
+      "existentialism",
+      "fantasy",
+      "darkness"
+    ],
+    "timePeriods": "late 1970s to present",
+    "regions": ["United Kingdom", "United States", "Germany"],
+    "mood": "dark and atmospheric",
+    "popularity": 65
+  },
+  {
+    "genre": "grindcore",
+    "description": "Grindcore is an extreme fusion genre of heavy metal and hardcore punk that originated in the mid-1980s. Characterized by its highly aggressive and fast-paced music, grindcore often features blast beats, heavily distorted guitars, and growled or screamed vocals. The genre is known for its brevity, with songs frequently lasting less than a minute.",
+    "subgenres": ["deathgrind", "goregrind", "powerviolence", "cybergrind"],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": ["blast beats", "fast tempos", "rapid transitions"],
+    "lyricThemes": ["politics", "social issues", "violence", "gore", "satire"],
+    "timePeriods": "mid-1980s to present",
+    "regions": ["United States", "United Kingdom", "Japan", "Sweden"],
+    "mood": "aggressive",
+    "popularity": 3.5
+  },
+  {
+    "genre": "groove",
+    "description": "Groove is a genre characterized by its rhythmic feel or sense of 'swing' and 'flow' that encourages movement and dance. It often features a strong, repetitive bassline and drum patterns that create a sense of forward momentum.",
+    "subgenres": ["funk", "groove metal", "neo-soul", "acid jazz"],
+    "instruments": [
+      "electric bass",
+      "drums",
+      "electric guitar",
+      "keyboard",
+      "brass instruments"
+    ],
+    "rhythms": [
+      "syncopated rhythms",
+      "funky beats",
+      "steady 4/4 time",
+      "swing"
+    ],
+    "lyricThemes": ["party", "dance", "love", "social issues"],
+    "timePeriods": "1960s to present",
+    "regions": ["United States", "United Kingdom", "Brazil", "West Africa"],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "grunge",
+    "description": "Grunge is a subgenre of alternative rock that emerged during the mid-1980s in the American Pacific Northwest, particularly in Seattle. It is characterized by its 'dirty' guitar sound, heavy use of distortion and feedback, and themes of apathy, confinement, and social alienation.",
+    "subgenres": ["post-grunge", "sludge metal"],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": ["4/4", "syncopated rhythms", "heavy and slow tempos"],
+    "lyricThemes": [
+      "angst",
+      "disillusionment",
+      "social issues",
+      "personal struggles"
+    ],
+    "timePeriods": "1980s-1990s",
+    "regions": ["Seattle", "Pacific Northwest"],
+    "mood": "raw and intense",
+    "popularity": 85
+  },
+  {
+    "genre": "guitar",
+    "description": "Guitar music encompasses a wide range of styles and genres where the guitar is the primary instrument. It includes various forms of music that highlight guitar playing, whether acoustic or electric.",
+    "subgenres": [
+      "rock",
+      "blues",
+      "jazz",
+      "classical",
+      "folk",
+      "flamenco",
+      "metal",
+      "country"
+    ],
+    "instruments": [
+      "acoustic guitar",
+      "electric guitar",
+      "bass guitar",
+      "classical guitar",
+      "steel guitar"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "12/8", "shuffle"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "social issues",
+      "personal struggle",
+      "storytelling",
+      "celebration"
+    ],
+    "timePeriods": "1950s-present",
+    "regions": ["North America", "Europe", "Latin America", "Asia", "Africa"],
+    "mood": "varied",
+    "popularity": 85
+  },
+  {
+    "genre": "happy",
+    "description": "Happy music is characterized by upbeat tempos, cheerful melodies, and positive, uplifting lyrics. It's designed to evoke feelings of joy, contentment, and positivity.",
+    "subgenres": ["Pop", "Dance", "Bubblegum Pop", "Sunshine Pop", "Disco"],
+    "instruments": ["Guitar", "Piano", "Synthesizer", "Drums", "Bass"],
+    "rhythms": ["4/4", "Upbeat", "Syncopated", "Danceable"],
+    "lyricThemes": [
+      "Love",
+      "Friendship",
+      "Celebration",
+      "Optimism",
+      "Good Times"
+    ],
+    "timePeriods": "1950s to present",
+    "regions": ["Global"],
+    "mood": "uplifting",
+    "popularity": 8.5
+  },
+  {
+    "genre": "hard-rock",
+    "description": "Hard rock is a genre of rock music characterized by aggressive vocals, distorted electric guitars, bass guitar, drums, and often accompanied by keyboards. It emerged in the mid-1960s and developed into a major genre in the 1970s.",
+    "subgenres": ["glam rock", "arena rock", "heavy metal", "punk rock"],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "keyboards",
+      "vocals"
+    ],
+    "rhythms": ["4/4 time signature", "strong backbeat", "syncopated rhythms"],
+    "lyricThemes": [
+      "rebellion",
+      "love",
+      "freedom",
+      "social issues",
+      "personal struggles"
+    ],
+    "timePeriods": "1960s - present",
+    "regions": ["United States", "United Kingdom", "Australia", "Canada"],
+    "mood": "energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "hardcore",
+    "description": "Hardcore is a subgenre of punk rock that originated in the late 1970s. It is characterized by faster tempos, louder volume, and more aggressive lyrics and performances compared to traditional punk rock.",
+    "subgenres": [
+      "hardcore punk",
+      "metalcore",
+      "post-hardcore",
+      "melodic hardcore",
+      "beatdown hardcore",
+      "crust punk",
+      "thrashcore"
+    ],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": ["fast-paced", "syncopated", "breakdowns"],
+    "lyricThemes": [
+      "anti-establishment",
+      "personal struggle",
+      "social issues",
+      "political dissent",
+      "unity"
+    ],
+    "timePeriods": "late 1970s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Japan",
+      "Australia"
+    ],
+    "mood": "aggressive",
+    "popularity": 7.5
+  },
+  {
+    "genre": "hardstyle",
+    "description": "Hardstyle is an electronic dance music genre that emerged in the late 1990s in the Netherlands. It is characterized by its hard-hitting kicks, reverse basslines, and energetic melodies, often featuring distorted sounds and aggressive, euphoric atmospheres.",
+    "subgenres": [
+      "rawstyle",
+      "euphoric hardstyle",
+      "freestyle",
+      "nu-style",
+      "hardcore"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "digital audio workstation (DAW)"
+    ],
+    "rhythms": [
+      "4/4 time signature",
+      "offbeat bass",
+      "reverse bass",
+      "syncopated rhythms"
+    ],
+    "lyricThemes": ["party", "euphoria", "rebellion", "fantasy"],
+    "timePeriods": "late 1990s to present",
+    "regions": ["Netherlands", "Belgium", "Germany", "Australia", "Italy"],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "heavy-metal",
+    "description": "Heavy metal is a genre of rock music characterized by a thick, massive sound, featuring highly amplified distortion, extended guitar solos, emphatic beats, and overall loudness. It emerged in the late 1960s and early 1970s, primarily in the United Kingdom and the United States.",
+    "subgenres": [
+      "thrash metal",
+      "death metal",
+      "black metal",
+      "power metal",
+      "doom metal",
+      "speed metal",
+      "symphonic metal",
+      "progressive metal",
+      "nu metal",
+      "glam metal"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "vocals",
+      "keyboard"
+    ],
+    "rhythms": [
+      "fast-paced",
+      "double bass drumming",
+      "syncopated",
+      "galloping"
+    ],
+    "lyricThemes": [
+      "fantasy",
+      "war",
+      "mythology",
+      "rebellion",
+      "darkness",
+      "power",
+      "existentialism"
+    ],
+    "timePeriods": "late 1960s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Scandinavia",
+      "Japan",
+      "Brazil"
+    ],
+    "mood": "aggressive",
+    "popularity": 75
+  },
+  {
+    "genre": "hip-hop",
+    "description": "Hip-hop is a cultural movement that encompasses rap music, DJing, breakdancing, and graffiti art. It originated in the 1970s in the Bronx, New York City, and has since become a global phenomenon influencing various aspects of culture and music.",
+    "subgenres": [
+      "trap",
+      "gangsta rap",
+      "conscious hip-hop",
+      "boom bap",
+      "crunk",
+      "mumble rap",
+      "alternative hip-hop"
+    ],
+    "instruments": [
+      "turntables",
+      "drum machine",
+      "synthesizer",
+      "sampler",
+      "microphone"
+    ],
+    "rhythms": ["4/4 beat", "syncopation", "breakbeat", "boom bap"],
+    "lyricThemes": [
+      "social issues",
+      "poverty",
+      "violence",
+      "wealth",
+      "success",
+      "struggle",
+      "party life"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Brazil",
+      "Japan",
+      "South Korea"
+    ],
+    "mood": "varied",
+    "popularity": 95
+  },
+  {
+    "genre": "holidays",
+    "description": "Holiday music encompasses a variety of songs traditionally associated with festive seasons and celebrations, such as Christmas, Hanukkah, New Year's, and other cultural holidays. This genre often features both classic and contemporary renditions of well-known holiday tunes.",
+    "subgenres": [
+      "Christmas",
+      "Hanukkah",
+      "New Year's",
+      "Thanksgiving",
+      "Easter",
+      "Halloween"
+    ],
+    "instruments": [
+      "bells",
+      "piano",
+      "guitar",
+      "orchestra",
+      "choir",
+      "synthesizer"
+    ],
+    "rhythms": ["waltz", "ballad", "upbeat", "swing", "march"],
+    "lyricThemes": [
+      "celebration",
+      "family",
+      "love",
+      "winter",
+      "tradition",
+      "joy",
+      "reflection"
+    ],
+    "timePeriods": "varies; predominantly late November to early January",
+    "regions": ["North America", "Europe", "Latin America", "Asia", "Africa"],
+    "mood": "festive",
+    "popularity": 85
+  },
+  {
+    "genre": "honky-tonk",
+    "description": "Honky-tonk is a style of country music that emerged in the 1940s and 1950s, characterized by its upbeat tempo, use of the piano, and themes centered around life's hardships, love, and drinking.",
+    "subgenres": ["Western swing", "Bakersfield sound", "Outlaw country"],
+    "instruments": [
+      "Piano",
+      "Fiddle",
+      "Steel guitar",
+      "Acoustic guitar",
+      "Electric guitar",
+      "Bass",
+      "Drums"
+    ],
+    "rhythms": ["4/4 time", "Two-step", "Shuffle"],
+    "lyricThemes": ["Heartbreak", "Love", "Drinking", "Loneliness", "Hardship"],
+    "timePeriods": "1940s-present",
+    "regions": ["Southern United States", "Texas", "Nashville"],
+    "mood": "Upbeat",
+    "popularity": 65
+  },
+  {
+    "genre": "house",
+    "description": "House music is a genre of electronic dance music characterized by a repetitive four-on-the-floor beat and a tempo of 120 to 130 beats per minute. It originated in Chicago in the early 1980s and quickly spread to other American cities and then to Europe.",
+    "subgenres": [
+      "deep house",
+      "acid house",
+      "progressive house",
+      "tech house",
+      "electro house",
+      "future house"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "sequencer",
+      "turntables"
+    ],
+    "rhythms": [
+      "four-on-the-floor",
+      "syncopated basslines",
+      "hi-hat cymbals",
+      "claps",
+      "snare drums"
+    ],
+    "lyricThemes": ["dance", "party", "love", "freedom", "escapism"],
+    "timePeriods": "1980s-present",
+    "regions": ["Chicago", "Detroit", "New York", "London", "Berlin", "Ibiza"],
+    "mood": "uplifting",
+    "popularity": 85
+  },
+  {
+    "genre": "idm",
+    "description": "Intelligent Dance Music (IDM) is a genre of electronic music that emerged in the early 1990s. It is characterized by an emphasis on individualistic experimentation rather than adhering to the typical dance music formulas. IDM often features complex rhythms, intricate melodies, and a wide range of sound textures.",
+    "subgenres": ["Glitch", "Ambient Techno", "Drill and Bass", "Braindance"],
+    "instruments": ["Synthesizer", "Drum Machine", "Sampler", "Computer"],
+    "rhythms": ["Complex", "Irregular", "Syncopated", "Breakbeat"],
+    "lyricThemes": ["Abstract", "Experimental", "Minimal"],
+    "timePeriods": "1990s to present",
+    "regions": ["United Kingdom", "United States", "Europe"],
+    "mood": "Introspective",
+    "popularity": 60
+  },
+  {
+    "genre": "indian",
+    "description": "Indian music encompasses a wide range of musical styles and traditions from the Indian subcontinent. It includes classical music (both Hindustani and Carnatic), folk music, and modern genres such as Bollywood music, Indian pop, and Indian rock.",
+    "subgenres": [
+      "Hindustani Classical",
+      "Carnatic Classical",
+      "Bollywood",
+      "Indian Pop",
+      "Indian Rock",
+      "Bhangra",
+      "Ghazal",
+      "Qawwali",
+      "Ragas"
+    ],
+    "instruments": [
+      "Sitar",
+      "Tabla",
+      "Harmonium",
+      "Veena",
+      "Sarod",
+      "Flute",
+      "Mridangam",
+      "Dhol",
+      "Tanpura",
+      "Shehnai"
+    ],
+    "rhythms": [
+      "Tala",
+      "Dadra",
+      "Keherwa",
+      "Rupak",
+      "Teentaal",
+      "Ektaal",
+      "Jhaptaal"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Devotion",
+      "Nature",
+      "Spirituality",
+      "Social Issues",
+      "Festivals",
+      "Historical Events"
+    ],
+    "timePeriods": "Ancient to Modern",
+    "regions": [
+      "North India",
+      "South India",
+      "West India",
+      "East India",
+      "Central India"
+    ],
+    "mood": "Varied",
+    "popularity": 85
+  },
+  {
+    "genre": "indie",
+    "description": "Indie music, short for independent music, is a genre that encompasses a diverse range of styles and sounds, typically produced by artists who are not signed to major record labels. It is characterized by its emphasis on artistic expression, creativity, and a DIY ethic.",
+    "subgenres": [
+      "indie rock",
+      "indie pop",
+      "indie folk",
+      "indie electronic",
+      "lo-fi",
+      "dream pop",
+      "shoegaze"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums",
+      "keyboard",
+      "synthesizer",
+      "vocals"
+    ],
+    "rhythms": ["4/4", "syncopated", "polyrhythmic"],
+    "lyricThemes": [
+      "introspection",
+      "love",
+      "existentialism",
+      "social issues",
+      "personal struggles",
+      "storytelling"
+    ],
+    "timePeriods": "1980s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "Europe"
+    ],
+    "mood": "varied",
+    "popularity": 75
+  },
+  {
+    "genre": "indie-pop",
+    "description": "Indie-pop is a genre of alternative rock music that originated in the 1980s. It combines the melodic elements of pop music with the ethos and aesthetics of indie rock, often characterized by its DIY approach and focus on artistic expression over commercial success.",
+    "subgenres": [
+      "dream pop",
+      "twee pop",
+      "chamber pop",
+      "synth-pop",
+      "indietronica"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums",
+      "synthesizer",
+      "keyboard",
+      "vocals"
+    ],
+    "rhythms": ["steady 4/4 beat", "syncopated rhythms", "danceable grooves"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "self-discovery",
+      "nostalgia",
+      "social issues"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Sweden"
+    ],
+    "mood": "uplifting",
+    "popularity": 75
+  },
+  {
+    "genre": "industrial",
+    "description": "Industrial music is a genre of experimental music that draws on harsh, transgressive or provocative sounds and themes. It emerged in the late 1970s, blending elements of electronic music, punk rock, and noise music. The genre often incorporates themes of dystopia, dehumanization, and the mechanization of society.",
+    "subgenres": [
+      "industrial rock",
+      "industrial metal",
+      "EBM (Electronic Body Music)",
+      "power noise",
+      "dark electro",
+      "cybergrind"
+    ],
+    "instruments": [
+      "synthesizers",
+      "samplers",
+      "drum machines",
+      "electric guitar",
+      "bass guitar",
+      "sequencers",
+      "computers"
+    ],
+    "rhythms": [
+      "4/4 beat",
+      "syncopated rhythms",
+      "mechanical beats",
+      "repetitive patterns"
+    ],
+    "lyricThemes": [
+      "dystopia",
+      "dehumanization",
+      "mechanization",
+      "alienation",
+      "rebellion",
+      "technology"
+    ],
+    "timePeriods": "late 1970s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Belgium",
+      "Canada"
+    ],
+    "mood": "dark",
+    "popularity": 65
+  },
+  {
+    "genre": "iranian",
+    "description": "Iranian music, also known as Persian music, encompasses a diverse range of musical styles originating from Iran and its historical regions. It includes both traditional and contemporary forms, often characterized by rich melodies, intricate rhythms, and poetic lyrics.",
+    "subgenres": [
+      "Classical Persian",
+      "Folk",
+      "Pop",
+      "Rock",
+      "Rap",
+      "Electronic"
+    ],
+    "instruments": [
+      "Tar",
+      "Setar",
+      "Santur",
+      "Ney",
+      "Tombak",
+      "Kamancheh",
+      "Daf",
+      "Oud"
+    ],
+    "rhythms": ["Dastgah", "Chaharmezrab", "Reng", "Tasnif"],
+    "lyricThemes": [
+      "Love",
+      "Mysticism",
+      "Nature",
+      "Social Issues",
+      "Patriotism"
+    ],
+    "timePeriods": "Ancient to Contemporary",
+    "regions": [
+      "Iran",
+      "Azerbaijan",
+      "Kurdistan",
+      "Khorasan",
+      "Mazandaran",
+      "Gilan",
+      "Fars"
+    ],
+    "mood": "Expressive",
+    "popularity": 7.5
+  },
+  {
+    "genre": "j-dance",
+    "description": "J-Dance is a genre of music originating from Japan that combines elements of electronic dance music (EDM) with J-pop influences. It is characterized by its high-energy beats, catchy melodies, and often features both Japanese and English lyrics.",
+    "subgenres": ["J-Pop Dance", "J-EDM", "J-Eurobeat", "J-Trance"],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "keyboard",
+      "vocals"
+    ],
+    "rhythms": ["4/4 beat", "syncopated rhythms", "up-tempo"],
+    "lyricThemes": ["love", "party", "youth", "empowerment", "fantasy"],
+    "timePeriods": "1990s to present",
+    "regions": ["Japan"],
+    "mood": "energetic",
+    "popularity": 7
+  },
+  {
+    "genre": "j-idol",
+    "description": "J-Idol, short for Japanese Idol, is a genre of popular music that features young performers, often in their teens or early twenties, who are marketed for their image, personality, and ability to sing and dance. These idols are typically part of larger groups and are known for their elaborate performances and close interactions with fans.",
+    "subgenres": ["Kawaii Metal", "J-Pop", "Anisong", "J-Rock", "Visual Kei"],
+    "instruments": ["Vocals", "Synthesizer", "Guitar", "Bass", "Drums"],
+    "rhythms": ["4/4", "Upbeat", "Danceable"],
+    "lyricThemes": ["Love", "Friendship", "Dreams", "Youth", "Happiness"],
+    "timePeriods": "1980s to present",
+    "regions": ["Japan"],
+    "mood": "Energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "j-pop",
+    "description": "J-pop, short for Japanese pop, is a genre of music that originated in Japan and encompasses a wide range of contemporary musical styles. It is characterized by its catchy melodies, polished production, and often features a blend of traditional Japanese music elements with modern pop influences.",
+    "subgenres": [
+      "idol pop",
+      "anime music",
+      "city pop",
+      "visual kei",
+      "enka",
+      "electropop"
+    ],
+    "instruments": [
+      "vocals",
+      "guitar",
+      "bass",
+      "drums",
+      "synthesizer",
+      "keyboard"
+    ],
+    "rhythms": ["4/4 time signature", "syncopated rhythms", "upbeat tempos"],
+    "lyricThemes": [
+      "love",
+      "youth",
+      "dreams",
+      "friendship",
+      "self-discovery",
+      "fantasy"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["Japan", "East Asia"],
+    "mood": "energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "j-rock",
+    "description": "J-Rock, short for Japanese Rock, is a genre of rock music that originated in Japan. It is characterized by its diverse sound, blending elements from various rock subgenres, and often features a mix of Japanese and English lyrics.",
+    "subgenres": [
+      "Visual Kei",
+      "Post-Rock",
+      "Alternative Rock",
+      "Pop Rock",
+      "Hard Rock"
+    ],
+    "instruments": [
+      "Electric Guitar",
+      "Bass Guitar",
+      "Drums",
+      "Keyboard",
+      "Vocals"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "Syncopated Rhythms"],
+    "lyricThemes": [
+      "Love",
+      "Existentialism",
+      "Fantasy",
+      "Social Issues",
+      "Personal Struggles"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": ["Japan"],
+    "mood": "Energetic",
+    "popularity": 8.5
+  },
+  {
+    "genre": "jazz",
+    "description": "Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries. It emerged from roots in blues and ragtime and is characterized by swing and blue notes, call and response vocals, polyrhythms, and improvisation.",
+    "subgenres": [
+      "Bebop",
+      "Swing",
+      "Cool Jazz",
+      "Hard Bop",
+      "Free Jazz",
+      "Modal Jazz",
+      "Fusion",
+      "Smooth Jazz",
+      "Latin Jazz",
+      "Gypsy Jazz"
+    ],
+    "instruments": [
+      "Saxophone",
+      "Trumpet",
+      "Piano",
+      "Double Bass",
+      "Drums",
+      "Guitar",
+      "Trombone",
+      "Clarinet",
+      "Flute"
+    ],
+    "rhythms": [
+      "Swing",
+      "Syncopation",
+      "Polyrhythm",
+      "Shuffle",
+      "Straight Eighths"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Heartache",
+      "Social Issues",
+      "Freedom",
+      "Celebration",
+      "Existentialism"
+    ],
+    "timePeriods": "Late 19th century to present",
+    "regions": ["United States", "Europe", "Japan", "Brazil", "Cuba"],
+    "mood": "Sophisticated",
+    "popularity": 75
+  },
+  {
+    "genre": "k-pop",
+    "description": "K-pop, short for Korean pop music, is a genre originating from South Korea that incorporates a wide range of musical styles and elements from Western pop, rock, jazz, hip-hop, R&B, reggae, electronic dance, folk, country, and classical on top of its traditional Korean music roots.",
+    "subgenres": ["K-hip hop", "K-R&B", "K-rock", "K-ballad", "K-electronic"],
+    "instruments": [
+      "vocals",
+      "synthesizer",
+      "guitar",
+      "bass",
+      "drums",
+      "piano"
+    ],
+    "rhythms": ["4/4", "syncopation", "dance beats", "hip-hop beats"],
+    "lyricThemes": [
+      "love",
+      "self-empowerment",
+      "youth",
+      "friendship",
+      "social issues"
+    ],
+    "timePeriods": "1990s to present",
+    "regions": ["South Korea", "Global"],
+    "mood": "energetic",
+    "popularity": 95
+  },
+  {
+    "genre": "kids",
+    "description": "Kids music is designed to be fun, educational, and engaging for children. It often includes simple melodies, repetitive lyrics, and themes that are relatable to young audiences. This genre spans a variety of styles and can include traditional nursery rhymes, educational songs, and contemporary pop tunes tailored for children.",
+    "subgenres": [
+      "Nursery Rhymes",
+      "Educational Songs",
+      "Children's Pop",
+      "Lullabies",
+      "Disney Songs"
+    ],
+    "instruments": ["Piano", "Guitar", "Ukulele", "Drums", "Xylophone"],
+    "rhythms": ["Simple 4/4", "Waltz", "March", "Swing"],
+    "lyricThemes": [
+      "Animals",
+      "Friendship",
+      "Counting",
+      "Alphabet",
+      "Bedtime Stories"
+    ],
+    "timePeriods": "Contemporary",
+    "regions": ["Global"],
+    "mood": "Cheerful",
+    "popularity": 85
+  },
+  {
+    "genre": "latin",
+    "description": "Latin music encompasses a wide variety of styles and genres from Latin America, Spain, and Portugal. It is characterized by its rhythmic diversity and rich cultural heritage, often featuring a blend of indigenous, African, and European influences.",
+    "subgenres": [
+      "Salsa",
+      "Reggaeton",
+      "Bachata",
+      "Merengue",
+      "Cumbia",
+      "Tango",
+      "Samba",
+      "Bossa Nova",
+      "Latin Pop",
+      "Ranchera"
+    ],
+    "instruments": [
+      "Guitar",
+      "Percussion",
+      "Brass Instruments",
+      "Piano",
+      "Accordion",
+      "Bass",
+      "Maracas",
+      "Bongos",
+      "Congas",
+      "Trumpet"
+    ],
+    "rhythms": [
+      "Clave",
+      "Tumbao",
+      "Guaguancó",
+      "Bossa Nova",
+      "Samba",
+      "Cumbia",
+      "Dembow",
+      "Merengue",
+      "Bolero",
+      "Tango"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Celebration",
+      "Cultural Pride",
+      "Social Issues",
+      "Dance",
+      "Nature",
+      "History",
+      "Festivities",
+      "Romance"
+    ],
+    "timePeriods": "20th century to present",
+    "regions": [
+      "Latin America",
+      "Caribbean",
+      "Spain",
+      "Portugal",
+      "United States"
+    ],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "latino",
+    "description": "Latino music, also known as Latin music, encompasses a wide range of musical styles and rhythms originating from Latin America and the Iberian Peninsula. It includes diverse genres like salsa, merengue, bachata, reggaeton, and more, often characterized by vibrant rhythms, passionate lyrics, and a rich cultural heritage.",
+    "subgenres": [
+      "salsa",
+      "merengue",
+      "bachata",
+      "reggaeton",
+      "cumbia",
+      "tango",
+      "ranchera",
+      "mariachi",
+      "bossa nova",
+      "latin pop"
+    ],
+    "instruments": [
+      "guitar",
+      "trumpet",
+      "accordion",
+      "conga",
+      "bongos",
+      "maracas",
+      "piano",
+      "bass",
+      "timbales",
+      "violin"
+    ],
+    "rhythms": [
+      "clave",
+      "cumbia rhythm",
+      "merengue rhythm",
+      "bachata rhythm",
+      "salsa rhythm",
+      "tango rhythm",
+      "bossa nova rhythm",
+      "reggaeton beat"
+    ],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "celebration",
+      "dancing",
+      "social issues",
+      "cultural pride",
+      "nostalgia",
+      "party"
+    ],
+    "timePeriods": "20th century to present",
+    "regions": [
+      "Latin America",
+      "Spain",
+      "Portugal",
+      "United States (with significant Latino populations)"
+    ],
+    "mood": "energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "malay",
+    "description": "Malay music encompasses a variety of traditional and contemporary musical styles originating from the Malay Peninsula and surrounding regions. It includes a rich tapestry of rhythms, instruments, and lyrical themes that reflect the cultural heritage of the Malay people.",
+    "subgenres": [
+      "Dangdut",
+      "Ghazal",
+      "Joget",
+      "Dikir Barat",
+      "Asli",
+      "Zapin",
+      "Kroncong"
+    ],
+    "instruments": [
+      "Gambus",
+      "Rebana",
+      "Angklung",
+      "Sape",
+      "Seruling",
+      "Gendang",
+      "Kompang"
+    ],
+    "rhythms": ["Joget", "Inang", "Zapin", "Masri"],
+    "lyricThemes": [
+      "Love",
+      "Nature",
+      "Heroism",
+      "Daily Life",
+      "Spirituality",
+      "Folklore"
+    ],
+    "timePeriods": "Traditional to Contemporary",
+    "regions": [
+      "Malaysia",
+      "Indonesia",
+      "Brunei",
+      "Singapore",
+      "Southern Thailand"
+    ],
+    "mood": "Varied",
+    "popularity": 75
+  },
+  {
+    "genre": "mandopop",
+    "description": "Mandopop, short for Mandarin popular music, is a genre of Chinese pop music sung in Mandarin. It originated in the 1920s in Shanghai and has since spread throughout the Chinese-speaking world, including Taiwan, Hong Kong, Malaysia, and Singapore.",
+    "subgenres": ["C-Pop", "Taiwanese Pop", "Hong Kong Pop", "Chinese Rock"],
+    "instruments": [
+      "vocals",
+      "guitar",
+      "piano",
+      "keyboard",
+      "drums",
+      "bass guitar"
+    ],
+    "rhythms": [
+      "4/4 time signature",
+      "syncopated rhythms",
+      "ballad rhythms",
+      "dance beats"
+    ],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "youth",
+      "nostalgia",
+      "personal growth",
+      "social issues"
+    ],
+    "timePeriods": "1920s to present",
+    "regions": ["China", "Taiwan", "Hong Kong", "Malaysia", "Singapore"],
+    "mood": "varied, often sentimental or upbeat",
+    "popularity": 85
+  },
+  {
+    "genre": "metal",
+    "description": "Metal is a genre of rock music characterized by its heavy use of distorted guitars, emphatic rhythms, dense bass-and-drum sound, and vigorous vocals. It often features extended guitar solos and complex song structures.",
+    "subgenres": [
+      "heavy metal",
+      "thrash metal",
+      "death metal",
+      "black metal",
+      "power metal",
+      "doom metal",
+      "progressive metal",
+      "nu metal"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "vocals",
+      "keyboard"
+    ],
+    "rhythms": [
+      "powerful and fast-paced",
+      "syncopated",
+      "double bass drumming",
+      "galloping"
+    ],
+    "lyricThemes": [
+      "fantasy",
+      "mythology",
+      "politics",
+      "personal struggle",
+      "darkness",
+      "rebellion"
+    ],
+    "timePeriods": "late 1960s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Scandinavia",
+      "Brazil",
+      "Japan"
+    ],
+    "mood": "aggressive",
+    "popularity": 75
+  },
+  {
+    "genre": "metal-misc",
+    "description": "A diverse and eclectic category encompassing various subgenres of metal that do not fit neatly into conventional classifications. This genre includes experimental, avant-garde, and fusion styles that blend metal with other musical elements.",
+    "subgenres": [
+      "avant-garde metal",
+      "folk metal",
+      "industrial metal",
+      "nu metal",
+      "post-metal",
+      "progressive metal",
+      "sludge metal",
+      "stoner metal"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "keyboard",
+      "synthesizer",
+      "violin",
+      "flute",
+      "saxophone"
+    ],
+    "rhythms": [
+      "complex time signatures",
+      "syncopated rhythms",
+      "blast beats",
+      "groove-oriented beats"
+    ],
+    "lyricThemes": [
+      "fantasy",
+      "mythology",
+      "personal struggles",
+      "politics",
+      "existentialism",
+      "science fiction",
+      "horror"
+    ],
+    "timePeriods": "1980s to present",
+    "regions": ["North America", "Europe", "Asia", "South America"],
+    "mood": "intense",
+    "popularity": 65
+  },
+  {
+    "genre": "metalcore",
+    "description": "Metalcore is a fusion genre combining elements of extreme metal and hardcore punk. It is characterized by heavy guitar riffs, breakdowns, and often features both screamed and clean vocals.",
+    "subgenres": [
+      "melodic metalcore",
+      "deathcore",
+      "mathcore",
+      "progressive metalcore"
+    ],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": ["breakdowns", "fast-paced drumming", "syncopated rhythms"],
+    "lyricThemes": [
+      "personal struggles",
+      "emotional pain",
+      "political issues",
+      "existential themes"
+    ],
+    "timePeriods": "late 1990s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Germany",
+      "Japan"
+    ],
+    "mood": "aggressive",
+    "popularity": 75
+  },
+  {
+    "genre": "minimal-techno",
+    "description": "Minimal techno is a subgenre of techno music characterized by a stripped-down aesthetic that emphasizes simplicity and repetition. It often features sparse, skeletal rhythms and a focus on subtle changes in texture and sound.",
+    "subgenres": ["microhouse", "minimal house", "minimal dub"],
+    "instruments": ["synthesizers", "drum machines", "samplers", "sequencers"],
+    "rhythms": ["4/4 beat", "syncopated rhythms", "repetitive loops"],
+    "lyricThemes": ["abstract", "minimalist", "instrumental"],
+    "timePeriods": "1990s to present",
+    "regions": ["Germany", "United States", "United Kingdom", "Japan"],
+    "mood": "hypnotic",
+    "popularity": 65
+  },
+  {
+    "genre": "movies",
+    "description": "Music from or inspired by films, encompassing a wide range of styles depending on the genre of the movie.",
+    "subgenres": [
+      "Soundtrack",
+      "Score",
+      "Musical Theatre",
+      "Film Score",
+      "Trailer Music"
+    ],
+    "instruments": [
+      "Orchestra",
+      "Synthesizer",
+      "Piano",
+      "Guitar",
+      "Drums",
+      "Strings",
+      "Brass",
+      "Woodwinds"
+    ],
+    "rhythms": [
+      "Varied",
+      "Cinematic",
+      "Epic",
+      "Suspenseful",
+      "Dramatic",
+      "Romantic",
+      "Action-Packed"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Adventure",
+      "Heroism",
+      "Conflict",
+      "Drama",
+      "Fantasy",
+      "Mystery"
+    ],
+    "timePeriods": "1920s-present",
+    "regions": ["Global"],
+    "mood": "Varied",
+    "popularity": 85
+  },
+  {
+    "genre": "mpb",
+    "description": "Música Popular Brasileira (MPB) is a trend in post-Bossa Nova urban popular music in Brazil. It combines elements of traditional Brazilian music with contemporary influences, resulting in a rich and diverse genre that often addresses social, political, and cultural issues.",
+    "subgenres": ["Tropicalia", "Samba", "Bossa Nova", "Choro", "Forró"],
+    "instruments": [
+      "acoustic guitar",
+      "cavaquinho",
+      "pandeiro",
+      "flute",
+      "saxophone"
+    ],
+    "rhythms": ["samba", "bossa nova", "baião", "frevo"],
+    "lyricThemes": [
+      "love",
+      "politics",
+      "social issues",
+      "nature",
+      "cultural identity"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["Brazil"],
+    "mood": "varied, often reflective and expressive",
+    "popularity": 75
+  },
+  {
+    "genre": "new-age",
+    "description": "New-age music is a genre intended to create artistic inspiration, relaxation, and optimism. It is often used in meditation, yoga, massage, and other forms of stress management or to create a peaceful atmosphere.",
+    "subgenres": [
+      "ambient",
+      "meditation",
+      "healing",
+      "nature sounds",
+      "space music"
+    ],
+    "instruments": [
+      "synthesizer",
+      "piano",
+      "flute",
+      "acoustic guitar",
+      "harp",
+      "nature sounds"
+    ],
+    "rhythms": ["slow tempo", "free-form", "ambient", "minimalist"],
+    "lyricThemes": [
+      "spirituality",
+      "nature",
+      "healing",
+      "relaxation",
+      "meditation"
+    ],
+    "timePeriods": "1980s-present",
+    "regions": ["global"],
+    "mood": "relaxing",
+    "popularity": 65
+  },
+  {
+    "genre": "new-release",
+    "description": "New-release music encompasses the latest tracks across various genres that have recently been made available to the public. This category is dynamic and constantly updated, reflecting the freshest sounds in the music industry.",
+    "subgenres": [
+      "pop",
+      "hip-hop",
+      "rock",
+      "electronic",
+      "R&B",
+      "country",
+      "indie",
+      "jazz",
+      "classical",
+      "metal"
+    ],
+    "instruments": [
+      "vocals",
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "synthesizer",
+      "piano",
+      "violin",
+      "saxophone",
+      "trumpet",
+      "acoustic guitar"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "syncopated", "polyrhythmic"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "empowerment",
+      "party",
+      "social issues",
+      "personal growth",
+      "nostalgia",
+      "fantasy",
+      "adventure",
+      "celebration"
+    ],
+    "timePeriods": "2020s",
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia",
+      "Latin America",
+      "Africa",
+      "Oceania"
+    ],
+    "mood": "varied",
+    "popularity": 95
+  },
+  {
+    "genre": "opera",
+    "description": "Opera is a form of theatre in which music is a fundamental component and dramatic roles are taken by singers. Such a 'work' (the literal translation of 'opera') is typically a collaboration between a composer and a librettist and incorporates a number of the performing arts, such as acting, scenery, costume, and sometimes dance or ballet.",
+    "subgenres": [
+      "Baroque Opera",
+      "Classical Opera",
+      "Romantic Opera",
+      "Modern Opera",
+      "Opera Buffa",
+      "Opera Seria",
+      "Bel Canto"
+    ],
+    "instruments": [
+      "Voice",
+      "Piano",
+      "Violin",
+      "Viola",
+      "Cello",
+      "Double Bass",
+      "Flute",
+      "Oboe",
+      "Clarinet",
+      "Bassoon",
+      "French Horn",
+      "Trumpet",
+      "Trombone",
+      "Timpani",
+      "Harp"
+    ],
+    "rhythms": ["Varied", "Recitative", "Aria", "Chorus"],
+    "lyricThemes": [
+      "Love",
+      "Tragedy",
+      "Comedy",
+      "Mythology",
+      "History",
+      "Political Intrigue",
+      "Human Emotions"
+    ],
+    "timePeriods": "Late 16th century to present",
+    "regions": [
+      "Italy",
+      "Germany",
+      "France",
+      "Austria",
+      "Russia",
+      "United States",
+      "United Kingdom"
+    ],
+    "mood": "Dramatic",
+    "popularity": 75
+  },
+  {
+    "genre": "pagode",
+    "description": "Pagode is a subgenre of samba that originated in Rio de Janeiro, Brazil, in the late 1970s and became popular in the 1980s. It is characterized by its upbeat and lively rhythms, often featuring themes of love, relationships, and everyday life.",
+    "subgenres": ["Samba de Raiz", "Samba Enredo", "Samba Romântico"],
+    "instruments": [
+      "Cavaquinho",
+      "Pandeiro",
+      "Tan-tan",
+      "Surdo",
+      "Reco-reco",
+      "Guitar",
+      "Tamborim"
+    ],
+    "rhythms": ["Samba", "Partido Alto", "Pagode"],
+    "lyricThemes": [
+      "Love",
+      "Relationships",
+      "Everyday Life",
+      "Joy",
+      "Friendship"
+    ],
+    "timePeriods": "Late 1970s to present",
+    "regions": ["Rio de Janeiro", "São Paulo", "Brazil"],
+    "mood": "Upbeat",
+    "popularity": 75
+  },
+  {
+    "genre": "party",
+    "description": "Party music is designed to create an energetic and festive atmosphere, perfect for social gatherings and celebrations. It often features upbeat tempos, catchy melodies, and lyrics that encourage dancing and having a good time.",
+    "subgenres": [
+      "Dance Pop",
+      "EDM",
+      "Hip Hop",
+      "Reggaeton",
+      "Disco",
+      "Funk",
+      "House"
+    ],
+    "instruments": [
+      "Synthesizer",
+      "Drum Machine",
+      "Electric Guitar",
+      "Bass Guitar",
+      "Turntables",
+      "Vocals"
+    ],
+    "rhythms": ["4/4 Beat", "Syncopated Rhythms", "Upbeat Tempos"],
+    "lyricThemes": [
+      "Celebration",
+      "Dancing",
+      "Love",
+      "Good Times",
+      "Friendship"
+    ],
+    "timePeriods": "1970s to Present",
+    "regions": ["Global"],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "philippines-opm",
+    "description": "Original Pilipino Music (OPM) is a genre encompassing various styles of music created by Filipino artists. It includes a wide range of musical expressions, from traditional folk to modern pop, rock, and hip-hop.",
+    "subgenres": [
+      "Pinoy rock",
+      "Pinoy pop",
+      "Pinoy hip-hop",
+      "Pinoy folk",
+      "Pinoy R&B"
+    ],
+    "instruments": [
+      "guitar",
+      "bass guitar",
+      "drums",
+      "keyboards",
+      "synthesizers",
+      "traditional Filipino instruments"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "syncopated rhythms", "Latin rhythms"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "social issues",
+      "patriotism",
+      "daily life",
+      "family"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": ["Philippines", "Metro Manila", "Visayas", "Mindanao"],
+    "mood": "varied",
+    "popularity": 85
+  },
+  {
+    "genre": "piano",
+    "description": "Piano music encompasses a wide range of styles and forms, from classical compositions to modern jazz improvisations. It highlights the versatility and expressive potential of the piano as a solo and ensemble instrument.",
+    "subgenres": [
+      "classical piano",
+      "jazz piano",
+      "piano pop",
+      "new age piano",
+      "ragtime",
+      "blues piano",
+      "piano rock",
+      "contemporary piano"
+    ],
+    "instruments": [
+      "piano",
+      "grand piano",
+      "upright piano",
+      "electric piano",
+      "synthesizer"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "12/8", "free form"],
+    "lyricThemes": [
+      "instrumental",
+      "romantic",
+      "melancholic",
+      "uplifting",
+      "narrative"
+    ],
+    "timePeriods": "18th century to present",
+    "regions": ["Europe", "North America", "Asia", "Latin America"],
+    "mood": "varied",
+    "popularity": 85
+  },
+  {
+    "genre": "pop",
+    "description": "Pop music is a genre of popular music that originated in its modern form during the mid-1950s in the United States and the United Kingdom. It is characterized by its catchy melodies, simple chord progressions, and repeated choruses. Pop music often incorporates elements from various other genres including rock, dance, hip-hop, and electronic music.",
+    "subgenres": [
+      "synth-pop",
+      "electropop",
+      "teen pop",
+      "dance-pop",
+      "pop rock",
+      "pop rap",
+      "indie pop"
+    ],
+    "instruments": [
+      "vocals",
+      "guitar",
+      "bass guitar",
+      "drums",
+      "keyboard",
+      "synthesizer",
+      "sampler"
+    ],
+    "rhythms": ["4/4 time signature", "syncopated rhythms", "backbeat"],
+    "lyricThemes": [
+      "love",
+      "relationships",
+      "party",
+      "self-empowerment",
+      "heartbreak",
+      "friendship"
+    ],
+    "timePeriods": "1950s-present",
+    "regions": ["United States", "United Kingdom", "Global"],
+    "mood": "upbeat",
+    "popularity": 95
+  },
+  {
+    "genre": "pop-film",
+    "description": "Pop-film is a genre that combines the catchy, melodic elements of pop music with the dramatic and narrative-driven aspects of film scores. It often features lush orchestrations, memorable hooks, and lyrics that are either directly related to or inspired by cinematic themes.",
+    "subgenres": ["cinematic pop", "soundtrack pop", "orchestral pop"],
+    "instruments": [
+      "vocals",
+      "piano",
+      "strings",
+      "synthesizers",
+      "drums",
+      "guitar",
+      "orchestra"
+    ],
+    "rhythms": [
+      "4/4 time",
+      "syncopated rhythms",
+      "steady beats",
+      "dynamic shifts"
+    ],
+    "lyricThemes": [
+      "love",
+      "adventure",
+      "heroism",
+      "fantasy",
+      "drama",
+      "emotional journeys"
+    ],
+    "timePeriods": "2000s-present",
+    "regions": ["United States", "United Kingdom", "South Korea", "Japan"],
+    "mood": "dramatic",
+    "popularity": 75
+  },
+  {
+    "genre": "post-dubstep",
+    "description": "Post-dubstep is a genre that evolved from dubstep, incorporating a wider range of influences including ambient, house, garage, and R&B. It typically features more complex rhythms and textures compared to traditional dubstep.",
+    "subgenres": ["future garage", "witch house", "UK bass", "chillstep"],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "bass guitar",
+      "vocals"
+    ],
+    "rhythms": ["syncopated", "off-beat", "half-time", "shuffling"],
+    "lyricThemes": ["introspection", "urban life", "melancholy", "abstract"],
+    "timePeriods": "late 2000s to present",
+    "regions": ["United Kingdom", "United States", "Canada", "Australia"],
+    "mood": "atmospheric",
+    "popularity": 65
+  },
+  {
+    "genre": "power-pop",
+    "description": "Power-pop is a genre of pop rock music that combines a strong melody with energetic, upbeat instrumentation. It often features catchy hooks, vocal harmonies, and a polished production style.",
+    "subgenres": ["jangle pop", "pop punk", "new wave", "bubblegum pop"],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "keyboard",
+      "vocals"
+    ],
+    "rhythms": ["4/4 time signature", "upbeat tempos", "steady drum patterns"],
+    "lyricThemes": ["love", "youth", "nostalgia", "heartbreak", "fun"],
+    "timePeriods": "1970s to present",
+    "regions": ["United States", "United Kingdom", "Australia", "Canada"],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "progressive-house",
+    "description": "Progressive house is a subgenre of house music that emerged in the early 1990s. It is characterized by its complex, layered melodies, extended build-ups, and breakdowns. The genre often features a slower tempo compared to other house music styles and incorporates elements from various genres, including trance and techno.",
+    "subgenres": [
+      "progressive trance",
+      "deep house",
+      "tech house",
+      "electro house"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "keyboard",
+      "bass guitar"
+    ],
+    "rhythms": [
+      "4/4 beat",
+      "syncopated rhythms",
+      "off-beat hi-hats",
+      "steady basslines"
+    ],
+    "lyricThemes": ["introspection", "euphoria", "escapism", "love", "dance"],
+    "timePeriods": "1990s to present",
+    "regions": [
+      "United Kingdom",
+      "United States",
+      "Netherlands",
+      "Germany",
+      "Sweden"
+    ],
+    "mood": "uplifting",
+    "popularity": 80
+  },
+  {
+    "genre": "psych-rock",
+    "description": "Psych-rock, short for psychedelic rock, is a diverse style of rock music inspired by or attempting to replicate the mind-altering experiences of psychedelic drugs. It often incorporates new recording techniques and effects, extended instrumental solos, and exotic instrumentation.",
+    "subgenres": [
+      "acid rock",
+      "space rock",
+      "neo-psychedelia",
+      "psychedelic pop"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "synthesizer",
+      "sitar",
+      "flute",
+      "organ"
+    ],
+    "rhythms": ["4/4 time", "syncopation", "complex rhythms"],
+    "lyricThemes": [
+      "psychedelic experiences",
+      "altered states of consciousness",
+      "nature",
+      "spirituality",
+      "abstract concepts"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Germany",
+      "Japan"
+    ],
+    "mood": "trippy",
+    "popularity": 75
+  },
+  {
+    "genre": "punk",
+    "description": "Punk is a music genre that emerged in the mid-1970s, characterized by its fast tempos, short song durations, and a raw, aggressive sound. It often incorporates anti-establishment and rebellious themes in its lyrics.",
+    "subgenres": [
+      "pop punk",
+      "hardcore punk",
+      "post-punk",
+      "anarcho-punk",
+      "ska punk",
+      "street punk",
+      "crust punk",
+      "garage punk"
+    ],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": [
+      "fast-paced",
+      "4/4 time signature",
+      "simple chord progressions",
+      "downstrokes"
+    ],
+    "lyricThemes": [
+      "anti-establishment",
+      "rebellion",
+      "social issues",
+      "politics",
+      "youth culture",
+      "individualism"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "Germany",
+      "Japan",
+      "Sweden"
+    ],
+    "mood": "energetic",
+    "popularity": 7.5
+  },
+  {
+    "genre": "punk-rock",
+    "description": "Punk rock is a music genre that emerged in the mid-1970s, rooted in the raw, rebellious, and energetic sounds of garage rock and proto-punk. It is characterized by its fast tempos, short song durations, and a DIY ethic. Punk rock often features aggressive and confrontational lyrics that address social and political issues.",
+    "subgenres": [
+      "hardcore punk",
+      "pop punk",
+      "post-punk",
+      "ska punk",
+      "street punk",
+      "anarcho-punk",
+      "garage punk"
+    ],
+    "instruments": ["electric guitar", "bass guitar", "drums", "vocals"],
+    "rhythms": [
+      "fast tempos",
+      "simple 4/4 time signature",
+      "downstrokes",
+      "power chords"
+    ],
+    "lyricThemes": [
+      "rebellion",
+      "anti-establishment",
+      "political dissent",
+      "individualism",
+      "social issues",
+      "youth angst"
+    ],
+    "timePeriods": "1970s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "Germany",
+      "Japan"
+    ],
+    "mood": "energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "r-n-b",
+    "description": "R&B, short for Rhythm and Blues, is a genre of popular music that originated in African American communities in the 1940s. It combines elements of jazz, gospel, and blues, characterized by a strong backbeat and emotive vocals.",
+    "subgenres": [
+      "Contemporary R&B",
+      "Neo-Soul",
+      "Funk",
+      "Soul",
+      "New Jack Swing",
+      "Quiet Storm"
+    ],
+    "instruments": [
+      "Vocals",
+      "Piano",
+      "Drums",
+      "Bass",
+      "Guitar",
+      "Synthesizer",
+      "Saxophone"
+    ],
+    "rhythms": ["Backbeat", "Syncopation", "Swing"],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Relationships",
+      "Empowerment",
+      "Social Issues"
+    ],
+    "timePeriods": "1940s to present",
+    "regions": ["United States", "United Kingdom", "Global"],
+    "mood": "Emotional",
+    "popularity": 85
+  },
+  {
+    "genre": "rainy-day",
+    "description": "Rainy-day music is characterized by its mellow, soothing, and reflective qualities, often evoking a sense of nostalgia, introspection, or calm. This genre is perfect for creating a cozy atmosphere on a rainy day.",
+    "subgenres": ["acoustic", "indie folk", "chillwave", "ambient", "lo-fi"],
+    "instruments": [
+      "acoustic guitar",
+      "piano",
+      "violin",
+      "synthesizer",
+      "soft percussion"
+    ],
+    "rhythms": ["slow tempo", "gentle beats", "minimalistic"],
+    "lyricThemes": [
+      "nostalgia",
+      "love",
+      "heartbreak",
+      "introspection",
+      "nature"
+    ],
+    "timePeriods": "2000s to present",
+    "regions": ["North America", "Europe", "Australia"],
+    "mood": "calm",
+    "popularity": 75
+  },
+  {
+    "genre": "reggae",
+    "description": "Reggae is a music genre that originated in Jamaica in the late 1960s. It is characterized by a strong rhythm, often accentuating the off-beat, and typically features socially conscious lyrics.",
+    "subgenres": [
+      "roots reggae",
+      "dub",
+      "rocksteady",
+      "dancehall",
+      "reggaeton"
+    ],
+    "instruments": [
+      "guitar",
+      "bass guitar",
+      "drums",
+      "keyboard",
+      "horns",
+      "percussion"
+    ],
+    "rhythms": ["one drop", "rockers", "steppers"],
+    "lyricThemes": [
+      "social justice",
+      "love",
+      "peace",
+      "politics",
+      "spirituality"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": [
+      "Jamaica",
+      "Caribbean",
+      "United Kingdom",
+      "United States",
+      "Africa"
+    ],
+    "mood": "relaxed",
+    "popularity": 85
+  },
+  {
+    "genre": "reggaeton",
+    "description": "Reggaeton is a genre of music that originated in Puerto Rico during the late 1990s. It is influenced by hip hop, Latin American, and Caribbean music. The genre is known for its distinctive dembow rhythm and often features lyrics in Spanish.",
+    "subgenres": ["Latin trap", "Perreo", "Dembow", "Electro reggaeton"],
+    "instruments": ["Drum machine", "Synthesizer", "Sampler", "Vocals"],
+    "rhythms": ["Dembow", "4/4 time signature"],
+    "lyricThemes": ["Dance", "Love", "Partying", "Street life"],
+    "timePeriods": "Late 1990s to present",
+    "regions": ["Puerto Rico", "Latin America", "United States"],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "road-trip",
+    "description": "Music that is perfect for long drives, often featuring upbeat, feel-good tunes that keep you energized and entertained on the road.",
+    "subgenres": [
+      "classic rock",
+      "indie pop",
+      "country",
+      "folk rock",
+      "soft rock"
+    ],
+    "instruments": [
+      "electric guitar",
+      "acoustic guitar",
+      "drums",
+      "bass guitar",
+      "keyboard"
+    ],
+    "rhythms": ["steady beat", "upbeat", "groovy"],
+    "lyricThemes": ["freedom", "adventure", "love", "nostalgia", "exploration"],
+    "timePeriods": "1960s to present",
+    "regions": ["United States", "United Kingdom", "Australia", "Canada"],
+    "mood": "uplifting",
+    "popularity": 85
+  },
+  {
+    "genre": "rock",
+    "description": "Rock music is a broad genre of popular music that originated as 'rock and roll' in the United States in the late 1940s and early 1950s, evolving into a range of different styles in the 1960s and later, particularly in the United States and the United Kingdom.",
+    "subgenres": [
+      "classic rock",
+      "hard rock",
+      "punk rock",
+      "alternative rock",
+      "indie rock",
+      "progressive rock",
+      "grunge",
+      "garage rock",
+      "psychedelic rock",
+      "folk rock"
+    ],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "vocals",
+      "keyboard",
+      "synthesizer"
+    ],
+    "rhythms": [
+      "4/4 time signature",
+      "syncopation",
+      "backbeat",
+      "steady tempo"
+    ],
+    "lyricThemes": [
+      "rebellion",
+      "love",
+      "social issues",
+      "personal struggles",
+      "freedom",
+      "youth"
+    ],
+    "timePeriods": "1950s to present",
+    "regions": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Europe",
+      "Japan"
+    ],
+    "mood": "energetic",
+    "popularity": 90
+  },
+  {
+    "genre": "rock-n-roll",
+    "description": "Rock-n-roll is a genre of popular music that originated in the United States in the late 1940s and early 1950s. It is characterized by a strong rhythm, simple melodies, and often revolves around the electric guitar.",
+    "subgenres": ["rockabilly", "surf rock", "garage rock", "psychedelic rock"],
+    "instruments": [
+      "electric guitar",
+      "bass guitar",
+      "drums",
+      "piano",
+      "saxophone"
+    ],
+    "rhythms": ["4/4 time signature", "backbeat", "shuffle rhythm"],
+    "lyricThemes": ["love", "rebellion", "freedom", "youth", "social issues"],
+    "timePeriods": "1950s-1960s",
+    "regions": ["United States", "United Kingdom"],
+    "mood": "energetic",
+    "popularity": 8.5
+  },
+  {
+    "genre": "rockabilly",
+    "description": "Rockabilly is one of the earliest styles of rock and roll music, dating back to the early 1950s in the United States. It blends elements of rock and roll, country, and rhythm and blues. The genre is characterized by its upbeat tempo, strong rhythms, and vocal styles that often include hiccups and yodels.",
+    "subgenres": ["psychobilly", "neo-rockabilly", "country rockabilly"],
+    "instruments": [
+      "electric guitar",
+      "double bass",
+      "drums",
+      "acoustic guitar"
+    ],
+    "rhythms": ["4/4 time", "swing rhythm", "shuffle rhythm"],
+    "lyricThemes": ["love", "rebellion", "youth culture", "cars"],
+    "timePeriods": "1950s to present",
+    "regions": ["United States", "United Kingdom", "Australia"],
+    "mood": "energetic",
+    "popularity": 7
+  },
+  {
+    "genre": "romance",
+    "description": "Romance music is characterized by its focus on themes of love, affection, and emotional connection. It often features soft, melodic tunes and heartfelt lyrics.",
+    "subgenres": [
+      "romantic ballads",
+      "love songs",
+      "romantic pop",
+      "romantic R&B"
+    ],
+    "instruments": [
+      "piano",
+      "acoustic guitar",
+      "violin",
+      "saxophone",
+      "vocals"
+    ],
+    "rhythms": ["slow tempo", "smooth", "gentle", "waltz"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "affection",
+      "longing",
+      "togetherness"
+    ],
+    "timePeriods": "spanning from the 1950s to present",
+    "regions": [
+      "global",
+      "especially popular in the United States, Europe, and Latin America"
+    ],
+    "mood": "romantic",
+    "popularity": 8.5
+  },
+  {
+    "genre": "sad",
+    "description": "Sad music often evokes feelings of melancholy, sorrow, and introspection. It can be characterized by slower tempos, minor keys, and emotionally charged lyrics.",
+    "subgenres": [
+      "sad indie",
+      "sad pop",
+      "sad rock",
+      "sad rap",
+      "sad acoustic"
+    ],
+    "instruments": [
+      "piano",
+      "acoustic guitar",
+      "violin",
+      "cello",
+      "synthesizer"
+    ],
+    "rhythms": ["slow ballads", "mid-tempo beats", "minimalist rhythms"],
+    "lyricThemes": ["heartbreak", "loss", "loneliness", "regret", "nostalgia"],
+    "timePeriods": "varied, with notable peaks in the 1990s, 2000s, and 2010s",
+    "regions": [
+      "global, with significant contributions from North America, Europe, and East Asia"
+    ],
+    "mood": "melancholic",
+    "popularity": 70
+  },
+  {
+    "genre": "salsa",
+    "description": "Salsa is a popular dance music genre that originated in the Caribbean, particularly in Cuba and Puerto Rico, and later developed in New York City in the 1960s and 1970s. It blends elements of Cuban son, mambo, and Latin jazz, characterized by energetic rhythms, vibrant brass sections, and lively percussion.",
+    "subgenres": ["Salsa Dura", "Salsa Romántica", "Timba", "Salsa Choke"],
+    "instruments": [
+      "Congas",
+      "Bongos",
+      "Timbales",
+      "Trumpet",
+      "Trombone",
+      "Piano",
+      "Bass",
+      "Claves",
+      "Maracas"
+    ],
+    "rhythms": ["Clave", "Montuno", "Tumbao", "Guajeo"],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Dancing",
+      "Celebration",
+      "Social Issues"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": [
+      "Cuba",
+      "Puerto Rico",
+      "New York City",
+      "Colombia",
+      "Venezuela"
+    ],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "samba",
+    "description": "Samba is a lively, rhythmical genre of music and dance that originated in Brazil, with its roots in African musical traditions. It is characterized by its syncopated rhythms and vibrant, expressive style.",
+    "subgenres": [
+      "Samba de Roda",
+      "Samba Enredo",
+      "Pagode",
+      "Samba-Reggae",
+      "Bossa Nova"
+    ],
+    "instruments": [
+      "Surdo",
+      "Tamborim",
+      "Caixa",
+      "Pandeiro",
+      "Cavaquinho",
+      "Guitar",
+      "Agogô",
+      "Ganzá"
+    ],
+    "rhythms": ["Syncopated rhythms", "2/4 time signature", "Clave rhythm"],
+    "lyricThemes": ["Love", "Carnival", "Social issues", "Joy", "Celebration"],
+    "timePeriods": "Early 20th century to present",
+    "regions": ["Brazil", "Rio de Janeiro", "São Paulo", "Bahia"],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "sertanejo",
+    "description": "Sertanejo is a genre of Brazilian music that originated in the countryside and rural areas. It is characterized by its use of acoustic instruments and its lyrical focus on love, heartbreak, and rural life.",
+    "subgenres": [
+      "Sertanejo Universitário",
+      "Sertanejo Raiz",
+      "Sertanejo Romântico",
+      "Sertanejo de Violeiros"
+    ],
+    "instruments": [
+      "Acoustic guitar",
+      "Accordion",
+      "Viola caipira",
+      "Bass guitar",
+      "Drums"
+    ],
+    "rhythms": ["Baião", "Xote", "Rancheira", "Guarânia"],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Rural life",
+      "Friendship",
+      "Partying"
+    ],
+    "timePeriods": "1920s to present",
+    "regions": ["Brazil", "Portugal", "Paraguay"],
+    "mood": "Emotional",
+    "popularity": 85
+  },
+  {
+    "genre": "show-tunes",
+    "description": "Show tunes are songs written for musical theater productions. These songs often feature strong melodies, dramatic narratives, and are designed to advance the plot or develop the characters of the show.",
+    "subgenres": [
+      "Broadway",
+      "West End",
+      "Musical Comedy",
+      "Jukebox Musical",
+      "Rock Musical"
+    ],
+    "instruments": [
+      "piano",
+      "orchestra",
+      "vocals",
+      "strings",
+      "brass",
+      "woodwinds",
+      "percussion"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "syncopated rhythms", "ballad tempo"],
+    "lyricThemes": [
+      "love",
+      "conflict",
+      "dreams",
+      "aspirations",
+      "comedy",
+      "tragedy",
+      "societal issues"
+    ],
+    "timePeriods": "1920s to present",
+    "regions": ["United States", "United Kingdom"],
+    "mood": "dramatic",
+    "popularity": 85
+  },
+  {
+    "genre": "singer-songwriter",
+    "description": "Singer-songwriter is a genre of music characterized by artists who write, compose, and perform their own music, often drawing from personal experiences and emotions. The genre is known for its emphasis on lyrical content and acoustic instrumentation.",
+    "subgenres": ["folk", "indie", "acoustic", "alternative", "pop"],
+    "instruments": [
+      "acoustic guitar",
+      "piano",
+      "harmonica",
+      "bass guitar",
+      "drums"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "personal reflection",
+      "social issues",
+      "storytelling"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["North America", "Europe", "Australia"],
+    "mood": "introspective",
+    "popularity": 85
+  },
+  {
+    "genre": "ska",
+    "description": "Ska is a music genre that originated in Jamaica in the late 1950s and was the precursor to rocksteady and reggae. It combines elements of Caribbean mento and calypso with American jazz and rhythm and blues. Characterized by a walking bass line accented with rhythms on the offbeat, ska became popular in the United Kingdom in the 1960s and later influenced the development of punk rock and new wave music.",
+    "subgenres": [
+      "2 Tone",
+      "Third Wave Ska",
+      "Ska Punk",
+      "Ska Jazz",
+      "Reggae",
+      "Rocksteady"
+    ],
+    "instruments": [
+      "Electric Guitar",
+      "Bass Guitar",
+      "Drums",
+      "Saxophone",
+      "Trumpet",
+      "Trombone",
+      "Keyboards"
+    ],
+    "rhythms": ["Offbeat", "Syncopation", "Walking Bass Line"],
+    "lyricThemes": [
+      "Social Issues",
+      "Political Commentary",
+      "Love",
+      "Everyday Life",
+      "Unity"
+    ],
+    "timePeriods": "Late 1950s - present",
+    "regions": [
+      "Jamaica",
+      "United Kingdom",
+      "United States",
+      "Latin America",
+      "Europe"
+    ],
+    "mood": "Upbeat",
+    "popularity": 75
+  },
+  {
+    "genre": "sleep",
+    "description": "Sleep music is designed to help listeners relax and fall asleep. It often features slow tempos, soothing melodies, and minimalistic arrangements to create a calming atmosphere.",
+    "subgenres": [
+      "ambient sleep",
+      "classical sleep",
+      "nature sounds",
+      "white noise",
+      "lo-fi sleep"
+    ],
+    "instruments": ["piano", "synthesizer", "acoustic guitar", "harp", "flute"],
+    "rhythms": ["slow tempo", "steady beat", "no beat"],
+    "lyricThemes": ["none", "relaxation", "peace", "tranquility"],
+    "timePeriods": "contemporary",
+    "regions": ["global"],
+    "mood": "calming",
+    "popularity": 75
+  },
+  {
+    "genre": "songwriter",
+    "description": "Songwriter music focuses on the craft of songwriting, typically highlighting the lyrical content and melody. It often features solo artists who write and perform their own material, showcasing personal storytelling and emotional expression.",
+    "subgenres": ["folk", "indie", "acoustic", "pop", "country", "rock"],
+    "instruments": [
+      "acoustic guitar",
+      "piano",
+      "vocals",
+      "harmonica",
+      "electric guitar",
+      "bass",
+      "drums"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "12/8"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "personal experiences",
+      "social issues",
+      "nature",
+      "introspection"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["North America", "Europe", "Australia", "South America"],
+    "mood": "introspective",
+    "popularity": 75
+  },
+  {
+    "genre": "soul",
+    "description": "Soul music is a genre that combines elements of African-American gospel music, rhythm and blues, and jazz. It originated in the United States in the late 1950s and early 1960s, characterized by its emotive vocal style and emphasis on melody and rhythm.",
+    "subgenres": [
+      "neo-soul",
+      "Motown",
+      "Southern soul",
+      "blue-eyed soul",
+      "quiet storm",
+      "Philly soul"
+    ],
+    "instruments": [
+      "vocals",
+      "piano",
+      "organ",
+      "guitar",
+      "bass guitar",
+      "drums",
+      "horns"
+    ],
+    "rhythms": ["4/4 time signature", "syncopation", "backbeat"],
+    "lyricThemes": [
+      "love",
+      "heartbreak",
+      "social issues",
+      "empowerment",
+      "spirituality"
+    ],
+    "timePeriods": "late 1950s to present",
+    "regions": ["United States", "United Kingdom", "Africa", "Europe"],
+    "mood": "emotive",
+    "popularity": 8.5
+  },
+  {
+    "genre": "soundtracks",
+    "description": "Soundtracks encompass a wide range of music created specifically to accompany and enhance the narrative of films, television shows, video games, and other media. This genre includes orchestral scores, popular songs, and thematic compositions that evoke the emotions and atmosphere of the associated visual content.",
+    "subgenres": [
+      "film score",
+      "video game music",
+      "musical theater",
+      "television score",
+      "anime soundtrack"
+    ],
+    "instruments": [
+      "orchestra",
+      "synthesizer",
+      "piano",
+      "guitar",
+      "drums",
+      "violin",
+      "cello",
+      "flute",
+      "brass instruments"
+    ],
+    "rhythms": ["varied", "dynamic", "thematic", "ambient", "percussive"],
+    "lyricThemes": [
+      "narrative",
+      "emotional",
+      "character-driven",
+      "thematic",
+      "situational"
+    ],
+    "timePeriods": "spanning from early 20th century to present",
+    "regions": ["global", "Hollywood", "Japan", "Europe", "India"],
+    "mood": "varied",
+    "popularity": 85
+  },
+  {
+    "genre": "spanish",
+    "description": "Spanish music encompasses a wide variety of musical styles originating from Spain, reflecting the country's diverse cultural history and regional identities. It includes traditional folk music, flamenco, and modern genres like pop, rock, and reggaeton.",
+    "subgenres": [
+      "Flamenco",
+      "Sevillanas",
+      "Rumba",
+      "Salsa",
+      "Reggaeton",
+      "Latin Pop",
+      "Rock en Español"
+    ],
+    "instruments": [
+      "Guitar",
+      "Castanets",
+      "Cajón",
+      "Accordion",
+      "Trumpet",
+      "Piano",
+      "Violin"
+    ],
+    "rhythms": [
+      "Bulería",
+      "Tango",
+      "Rumba",
+      "Sevillana",
+      "Reggaeton beat",
+      "Salsa rhythm"
+    ],
+    "lyricThemes": [
+      "Love",
+      "Heartbreak",
+      "Celebration",
+      "Cultural pride",
+      "Social issues",
+      "Storytelling"
+    ],
+    "timePeriods": "From medieval times to the present day",
+    "regions": [
+      "Andalusia",
+      "Catalonia",
+      "Madrid",
+      "Valencia",
+      "Galicia",
+      "Basque Country"
+    ],
+    "mood": "Varies from passionate and intense to joyful and celebratory",
+    "popularity": 85
+  },
+  {
+    "genre": "study",
+    "description": "Study music is a genre designed to aid concentration and productivity, often featuring calm and soothing sounds to minimize distractions.",
+    "subgenres": [
+      "lofi hip hop",
+      "classical",
+      "ambient",
+      "chillhop",
+      "instrumental"
+    ],
+    "instruments": [
+      "piano",
+      "synthesizer",
+      "acoustic guitar",
+      "violin",
+      "cello"
+    ],
+    "rhythms": ["steady", "slow-tempo", "ambient", "minimalistic"],
+    "lyricThemes": ["instrumental", "minimal vocals"],
+    "timePeriods": "various",
+    "regions": ["global"],
+    "mood": "calm",
+    "popularity": 75
+  },
+  {
+    "genre": "summer",
+    "description": "Summer music encompasses a wide range of genres and styles that evoke the feeling of warm weather, relaxation, and fun. This genre often features upbeat, catchy rhythms and melodies that are perfect for outdoor activities and social gatherings.",
+    "subgenres": [
+      "tropical house",
+      "reggae",
+      "surf rock",
+      "pop",
+      "dancehall",
+      "soca"
+    ],
+    "instruments": [
+      "acoustic guitar",
+      "steel drums",
+      "synthesizer",
+      "trumpet",
+      "saxophone",
+      "percussion"
+    ],
+    "rhythms": [
+      "syncopated",
+      "upbeat",
+      "4/4 time",
+      "reggae beat",
+      "dancehall rhythm"
+    ],
+    "lyricThemes": [
+      "sunshine",
+      "beach",
+      "love",
+      "parties",
+      "freedom",
+      "vacation"
+    ],
+    "timePeriods": "1960s to present",
+    "regions": ["Caribbean", "United States", "Australia", "Brazil", "Spain"],
+    "mood": "uplifting",
+    "popularity": 85
+  },
+  {
+    "genre": "swedish",
+    "description": "Swedish music encompasses a wide range of styles and traditions, including folk music, pop, rock, and electronic music. It is known for its melodic and harmonious qualities, often featuring intricate instrumental arrangements and heartfelt lyrics.",
+    "subgenres": [
+      "Swedish Pop",
+      "Swedish Folk",
+      "Swedish Rock",
+      "Swedish Electronic",
+      "Swedish Hip-Hop"
+    ],
+    "instruments": [
+      "guitar",
+      "accordion",
+      "nyckelharpa",
+      "fiddle",
+      "synthesizer",
+      "drums"
+    ],
+    "rhythms": ["4/4", "3/4", "6/8", "polska", "schottis"],
+    "lyricThemes": [
+      "love",
+      "nature",
+      "personal reflection",
+      "social issues",
+      "mythology"
+    ],
+    "timePeriods": "Medieval to Contemporary",
+    "regions": ["Sweden", "Stockholm", "Gothenburg", "Malmö", "Dalarna"],
+    "mood": "varied",
+    "popularity": 8.5
+  },
+  {
+    "genre": "synth-pop",
+    "description": "Synth-pop is a genre of popular music that first became prominent in the late 1970s and features the synthesizer as the dominant musical instrument. It is characterized by its use of electronic instruments, catchy melodies, and a polished production style.",
+    "subgenres": ["electropop", "new wave", "futurepop", "chillwave"],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "electronic keyboard",
+      "vocals",
+      "bass guitar"
+    ],
+    "rhythms": ["4/4 beat", "syncopated rhythms", "danceable grooves"],
+    "lyricThemes": [
+      "romance",
+      "nostalgia",
+      "escapism",
+      "technology",
+      "urban life"
+    ],
+    "timePeriods": "Late 1970s to present",
+    "regions": ["United Kingdom", "United States", "Germany", "Japan"],
+    "mood": "uplifting",
+    "popularity": 85
+  },
+  {
+    "genre": "tango",
+    "description": "Tango is a genre of music and dance that originated in the late 19th century in the working-class neighborhoods of Buenos Aires, Argentina, and Montevideo, Uruguay. It is characterized by its dramatic and passionate style, often featuring a distinctive rhythm and melancholy melodies.",
+    "subgenres": ["Tango Nuevo", "Milonga", "Vals", "Electrotango"],
+    "instruments": ["Bandoneón", "Piano", "Violin", "Double Bass", "Guitar"],
+    "rhythms": ["2/4", "4/4"],
+    "lyricThemes": ["Love", "Heartbreak", "Nostalgia", "City Life"],
+    "timePeriods": "Late 19th century to present",
+    "regions": ["Argentina", "Uruguay"],
+    "mood": "Passionate",
+    "popularity": 75
+  },
+  {
+    "genre": "techno",
+    "description": "Techno is a genre of electronic dance music that emerged in Detroit, Michigan, in the mid-to-late 1980s. It is characterized by a repetitive four on the floor beat and a tempo of 120 to 150 beats per minute. Techno often features synthetic sounds and futuristic themes.",
+    "subgenres": [
+      "Detroit Techno",
+      "Minimal Techno",
+      "Acid Techno",
+      "Hard Techno",
+      "Dub Techno",
+      "Tech House"
+    ],
+    "instruments": [
+      "Synthesizer",
+      "Drum Machine",
+      "Sampler",
+      "Sequencer",
+      "Turntables"
+    ],
+    "rhythms": ["Four on the floor", "Syncopation", "Polyrhythms"],
+    "lyricThemes": ["Futurism", "Technology", "Urban life", "Science fiction"],
+    "timePeriods": "1980s to present",
+    "regions": ["Detroit", "Berlin", "London", "Tokyo", "Amsterdam"],
+    "mood": "Energetic",
+    "popularity": 75
+  },
+  {
+    "genre": "trance",
+    "description": "Trance is a genre of electronic dance music that emerged in the early 1990s. It is characterized by a tempo lying between 125 to 150 BPM, repeating melodic phrases, and a musical form that builds up and down throughout a track. Trance tracks are often instrumental but can include vocals, and they are known for their hypnotic rhythms and uplifting melodies.",
+    "subgenres": [
+      "progressive trance",
+      "uplifting trance",
+      "vocal trance",
+      "psytrance",
+      "tech trance"
+    ],
+    "instruments": [
+      "synthesizer",
+      "drum machine",
+      "sampler",
+      "sequencer",
+      "computer"
+    ],
+    "rhythms": [
+      "4/4 beat",
+      "syncopated basslines",
+      "offbeat hi-hats",
+      "arpeggios"
+    ],
+    "lyricThemes": ["euphoria", "love", "dreams", "fantasy", "escapism"],
+    "timePeriods": "1990s to present",
+    "regions": ["Europe", "North America", "Australia", "Asia"],
+    "mood": "uplifting",
+    "popularity": 78
+  },
+  {
+    "genre": "trip-hop",
+    "description": "Trip-hop is a genre of electronic music that originated in the early 1990s in the United Kingdom. It is characterized by its fusion of hip-hop beats with atmospheric soundscapes, often incorporating elements of jazz, dub, soul, and funk. The genre is known for its moody, downtempo rhythms and its use of sampling and looping.",
+    "subgenres": ["downtempo", "chillout", "ambient trip-hop", "nu-jazz"],
+    "instruments": [
+      "synthesizers",
+      "drum machines",
+      "samplers",
+      "turntables",
+      "bass guitar",
+      "electric guitar",
+      "keyboards"
+    ],
+    "rhythms": ["syncopated beats", "downtempo", "breakbeats"],
+    "lyricThemes": [
+      "introspection",
+      "urban life",
+      "melancholy",
+      "existentialism",
+      "romance"
+    ],
+    "timePeriods": "1990s to present",
+    "regions": ["United Kingdom", "United States", "France", "Germany"],
+    "mood": "moody",
+    "popularity": 70
+  },
+  {
+    "genre": "turkish",
+    "description": "Turkish music encompasses a diverse range of styles and influences, from traditional folk music to contemporary pop. It often features rich melodies and intricate rhythms, reflecting the cultural and historical diversity of Turkey.",
+    "subgenres": [
+      "Turkish Classical",
+      "Arabesque",
+      "Turkish Pop",
+      "Anatolian Rock",
+      "Turkish Folk",
+      "Ottoman Military",
+      "Turkish Hip Hop"
+    ],
+    "instruments": [
+      "Baglama",
+      "Oud",
+      "Kanun",
+      "Ney",
+      "Darbuka",
+      "Zurna",
+      "Kemenche"
+    ],
+    "rhythms": ["9/8", "7/8", "6/8", "4/4", "5/8"],
+    "lyricThemes": [
+      "Love",
+      "Nature",
+      "Patriotism",
+      "Sorrow",
+      "Joy",
+      "Mysticism"
+    ],
+    "timePeriods": "From ancient times to the present",
+    "regions": [
+      "Anatolia",
+      "Istanbul",
+      "Aegean",
+      "Black Sea",
+      "Mediterranean",
+      "Southeastern Anatolia"
+    ],
+    "mood": "Varied, can range from melancholic to joyful",
+    "popularity": 75
+  },
+  {
+    "genre": "work-out",
+    "description": "A high-energy genre designed to keep you motivated and moving during exercise. It typically features fast tempos, strong beats, and uplifting lyrics.",
+    "subgenres": [
+      "Cardio Pop",
+      "Workout Hip-Hop",
+      "EDM Workout",
+      "Rock Workout",
+      "Dance Workout"
+    ],
+    "instruments": [
+      "Synthesizer",
+      "Drum Machine",
+      "Electric Guitar",
+      "Bass Guitar",
+      "Vocals"
+    ],
+    "rhythms": ["4/4", "Upbeat", "Fast Tempo", "Syncopated Rhythms"],
+    "lyricThemes": [
+      "Motivation",
+      "Perseverance",
+      "Energy",
+      "Self-Improvement",
+      "Empowerment"
+    ],
+    "timePeriods": "1990s-Present",
+    "regions": ["Global"],
+    "mood": "Energetic",
+    "popularity": 85
+  },
+  {
+    "genre": "world-music",
+    "description": "World music is a broad category that encompasses a variety of musical styles from different cultures around the globe. It often includes traditional music, folk music, and contemporary music that is influenced by a particular culture's heritage.",
+    "subgenres": [
+      "Afrobeat",
+      "Reggae",
+      "Samba",
+      "Celtic",
+      "Flamenco",
+      "Klezmer",
+      "Qawwali",
+      "Gamelan",
+      "Tango",
+      "Bhangra"
+    ],
+    "instruments": [
+      "Djembe",
+      "Sitar",
+      "Bagpipes",
+      "Didgeridoo",
+      "Marimba",
+      "Accordion",
+      "Oud",
+      "Tabla",
+      "Kora",
+      "Balalaika"
+    ],
+    "rhythms": [
+      "Polyrhythm",
+      "Syncopation",
+      "Clave",
+      "Tresillo",
+      "Tala",
+      "Rumba",
+      "Bossa Nova",
+      "Reggae Offbeat",
+      "Samba",
+      "Mbaqanga"
+    ],
+    "lyricThemes": [
+      "Cultural heritage",
+      "Social issues",
+      "Love",
+      "Nature",
+      "Spirituality",
+      "Celebration",
+      "Tradition",
+      "History",
+      "Migration",
+      "Identity"
+    ],
+    "timePeriods": "Ancient to Contemporary",
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Latin America",
+      "Middle East",
+      "North America",
+      "Oceania",
+      "Caribbean"
+    ],
+    "mood": "Varied",
+    "popularity": 75
+  }
+]
