@@ -14,6 +14,8 @@ import { z } from "zod";
 export class SpotifyAI {
   private api: SpotifyApi;
 
+  private static DEFAULT_LIMIT = 5;
+
   constructor(options?: SpotifyAIOptions) {
     options = options || {};
 
@@ -50,11 +52,7 @@ export class SpotifyAI {
       const { object: recommendationsParams } =
         await Utils.generateObject<RecommendationsParams>({
           schema: z.object({
-            seed_artists: z.string(),
             seed_genres: z.string(),
-            seed_tracks: z.string(),
-
-            limit: z.number(),
             market: z.string(),
 
             min_acousticness: z.number(),
@@ -129,7 +127,7 @@ export class SpotifyAI {
     description: string,
     options?: NaturalLanguageSearchOptions
   ): Promise<Track[]> {
-    options = options || { limit: 10, printResults: true };
+    options = options || { limit: SpotifyAI.DEFAULT_LIMIT, printResults: true };
 
     const recommendationsParams = await this.generateRecommendationParams(
       description
