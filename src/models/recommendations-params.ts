@@ -1,8 +1,8 @@
 export interface RecommendationsParams {
   // Required Parameters
-  seed_artists?: string; // Comma-separated list of Spotify artist IDs, max 5
-  seed_genres?: string; // Comma-separated list of genres, max 5
-  seed_tracks?: string; // Comma-separated list of Spotify track IDs, max 5
+  seed_artists?: string[]; // Comma-separated list of Spotify artist IDs, max 5
+  seed_genres?: string[]; // Comma-separated list of genres, max 5
+  seed_tracks?: string[]; // Comma-separated list of Spotify track IDs, max 5
 
   // Optional Parameters
   limit?: number; // The target size of the list of recommended tracks (Default: 20, Range: 1-100)

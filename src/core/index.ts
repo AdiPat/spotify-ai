@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { printSearchResults } from "./spotify";
+import { naturalLanguageSearch, printSearchResults } from "./spotify";
 
 async function run() {
   const program = new Command();
@@ -43,6 +43,7 @@ async function run() {
 
   if (naturalSearch && description) {
     console.log("Natural search with description: ", description);
+    await naturalLanguageSearch(description);
     process.exit(0);
   }
 
