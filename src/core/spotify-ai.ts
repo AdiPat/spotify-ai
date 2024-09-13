@@ -147,7 +147,11 @@ export class SpotifyAI {
   ): Promise<Track[]> {
     options = options || { limit: SpotifyAI.DEFAULT_LIMIT, printResults: true };
 
-    const recommendationsParams = await this.generateRecommendationParams(
+    if (!options.limit) {
+      options.limit = SpotifyAI.DEFAULT_LIMIT;
+    }
+
+    let recommendationsParams = await this.generateRecommendationParams(
       description
     );
 
@@ -169,7 +173,7 @@ export class SpotifyAI {
       );
     }
 
-    const recommendations = await this.api.recommendations
+    let recommendations = await this.api.recommendations
       .get(recommendationsParams)
       .catch((error) => {
         if (this.verbose) {
@@ -186,6 +190,39 @@ export class SpotifyAI {
       return [];
     }
 
+    if (this.verbose) {
+      console.log(
+        "naturalLanguageSearch: Recommendations count: ",
+        recommendations.tracks.length,
+        " | Options.limit:",
+        options.limit
+      );
+    }
+
+    while (recommendations.tracks.length < options.limit) {
+      if (this.verbose) {
+        console.log(
+          "naturalLanguageSearch: Getting more recommendations to reach limit."
+        );
+        console.log(
+          "naturalLanguageSearch: Current recommendations count: ",
+          recommendations.tracks.length
+        );
+      }
+
+      recommendationsParams = await this.generateRecommendationParams(
+        description
+      );
+
+      const moreRecommendations = await this.api.recommendations.get(
+        recommendationsParams
+      );
+
+      recommendations.tracks = recommendations.tracks.concat(
+        moreRecommendations.tracks
+      );
+    }
+
     if (options.printResults) {
       const printableTracks = recommendations.tracks.map((track: Track) => ({
         id: track.id,
@@ -194,7 +231,13 @@ export class SpotifyAI {
         url: track.external_urls.spotify,
       }));
 
-      console.table(printableTracks);
+      const uniquePrintableTracks = printableTracks.filter(
+        (track: any, index: number, self: any) =>
+          index ===
+          self.findIndex((t: any) => t.id === track.id && t.name === track.name)
+      );
+
+      console.table(uniquePrintableTracks);
     }
 
     return recommendations.tracks;
