@@ -1,8 +1,26 @@
+import dotenv from "dotenv";
+
+dotenv.config();
+
 import { Utils } from "../common";
 import { Data } from "../data";
 import { z } from "zod";
 import { writeFile } from "fs/promises";
 import { GenreMetadata } from "../models";
+
+async function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function loadGenreMetadata(): Promise<GenreMetadata[]> {
+  try {
+    const genreMetadata = require("../genre-metadata.json");
+    return genreMetadata;
+  } catch (error) {
+    console.error("Error loading genre metadata from file", error);
+    return [];
+  }
+}
 
 async function generateOneGenreMetadata(
   genre: string
@@ -37,14 +55,41 @@ async function generateOneGenreMetadata(
 }
 
 async function generateGenreMetadata() {
+  console.log(
+    "generateGenreMetadata(): Starting script. Generating genre metadata..."
+  );
   const genres = Data.GenreSeeds;
 
-  const genreMetadata: GenreMetadata[] = await Promise.all(
-    genres.map(async (genre) => generateOneGenreMetadata(genre))
-  );
+  const existingMetadata = await loadGenreMetadata();
 
-  const filteredMetadata = genreMetadata.filter(Boolean); // Remove null values
-  const jsonContent = JSON.stringify(filteredMetadata, null, 2);
+  const genreMetadata = [];
+
+  for (let i = 0; i < genres.length; i++) {
+    const currentGenre = genres[i];
+
+    console.log(`Generating metadata for genre: ${currentGenre}`);
+
+    const genreMetadataFound = existingMetadata.find(
+      (metadata) => metadata.genre === currentGenre
+    );
+
+    if (genreMetadataFound) {
+      genreMetadata.push(genreMetadataFound);
+      continue;
+    }
+
+    const newGenreMetadata = await generateOneGenreMetadata(currentGenre);
+
+    delay(1000); // Delay to avoid rate limiting
+
+    if (newGenreMetadata) {
+      genreMetadata.push(newGenreMetadata);
+    } else {
+      console.error(`Error generating metadata for genre: ${currentGenre}`);
+    }
+  }
+
+  const jsonContent = JSON.stringify(genreMetadata, null, 2);
 
   try {
     await writeFile("./genre-metadata.json", jsonContent);
