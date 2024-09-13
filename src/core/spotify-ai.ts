@@ -133,6 +133,14 @@ export class SpotifyAI {
     }
   }
 
+  /**
+   *
+   * Natural language search for tracks matching the description.
+   *
+   * @param description Natural language description of track.
+   * @param options Options for natural language search.
+   * @returns Tracks matching the description or null if failed.
+   */
   public async naturalLanguageSearch(
     description: string,
     options?: NaturalLanguageSearchOptions
