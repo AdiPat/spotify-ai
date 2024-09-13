@@ -6,3 +6,5 @@ export { Track } from "./track";
 export { Album } from "./album";
 export { Artist } from "./artist";
 export { ExternalId, ExternalUrl, Image } from "./misc";
+export { SpotifyAIOptions } from "./spotify-ai-options";
+export { NaturalLanguageSearchOptions } from "./natural-language-search-options";

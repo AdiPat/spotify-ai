@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { naturalLanguageSearch, printSearchResults } from "./spotify";
+import { SpotifyAI } from "./spotify-ai";
 
 async function run() {
   const program = new Command();
@@ -31,6 +31,8 @@ async function run() {
 
   const opts = program.opts();
 
+  console.log("Options: ", opts);
+
   const { trackId, N, name, playlistId, naturalSearch, description, help } =
     opts;
 
@@ -42,14 +44,18 @@ async function run() {
   }
 
   if (naturalSearch && description) {
+    const spotifyAI = new SpotifyAI();
     console.log("Natural search with description: ", description);
-    await naturalLanguageSearch(description);
+
+    const nlsOptions = {
+      limit: N || 5,
+      printResults: true,
+    };
+
+    await spotifyAI.naturalLanguageSearch(description, nlsOptions);
+
     process.exit(0);
   }
-
-  console.log("Options: ", opts);
-
-  await printSearchResults();
 
   process.exit(0);
 }
