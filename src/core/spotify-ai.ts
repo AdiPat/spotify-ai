@@ -126,7 +126,7 @@ export class SpotifyAI {
       const { object: recommendationsParams } =
         await Utils.generateObject<RecommendationsParams>({
           schema: z.object({
-            seed_genres: z.string(),
+            seed_genres: z.array(z.string()),
             market: z.string(),
 
             min_acousticness: z.number(),
