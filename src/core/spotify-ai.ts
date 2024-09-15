@@ -10,6 +10,7 @@ import {
   SpotifyAIOptions,
 } from "../models";
 import { z } from "zod";
+import { Data } from "../data";
 
 export class SpotifyAI {
   private api: SpotifyApi;
@@ -42,6 +43,72 @@ export class SpotifyAI {
 
     if (this.verbose) {
       console.log("SpotifyAI: Initialized.");
+    }
+  }
+
+  /**
+   * Generate genre seeds from a natural language description.
+   *
+   * @param description Natural language description of track.
+   * @returns Genre seeds and empty list if generation failed.
+   *
+   */
+  public async generateGenreSeeds(description: string): Promise<string[]> {
+    try {
+      const detectedGenreSeeds = [];
+
+      const { object } = await Utils.generateObject<{
+        detectedGenreSeeds: string[];
+      }>({
+        schema: z.object({
+          detectedGenreSeeds: z.array(z.string()),
+        }),
+        schemaName: "DetectedGenreSeeds",
+        prompt: `Generate genre seeds for the description "${description}"`,
+        system: `You are a Spotify AI agent that does advanced music analysis. You have access to all the data on Spotify. 
+          You are given the list of genres and descriptions that are available on Spotify.
+          You need to generate genre seeds from the given list based on the description.
+          Genres: ${JSON.stringify(Data.GenreMetadata)}`,
+      });
+
+      if (this.verbose) {
+        console.log(
+          "generateGenreSeeds: Detected genre seeds: ",
+          object.detectedGenreSeeds
+        );
+      }
+
+      if (!object.detectedGenreSeeds) {
+        if (this.verbose) {
+          console.error("generateGenreSeeds: Failed to generate genre seeds.");
+        }
+        return [];
+      }
+
+      const genresAvailable = Data.GenreSeeds;
+
+      for (const genreSeed of object.detectedGenreSeeds) {
+        if (genresAvailable.includes(genreSeed)) {
+          detectedGenreSeeds.push(genreSeed);
+        } else {
+          if (this.verbose) {
+            console.error(
+              `generateGenreSeeds: Genre seed "${genreSeed}" not available.`
+            );
+          }
+        }
+      }
+
+      return detectedGenreSeeds;
+    } catch (error) {
+      if (this.verbose) {
+        console.error(
+          "generateGenreSeeds: Failed to generate genre seeds.",
+          error
+        );
+      }
+
+      return [];
     }
   }
 
