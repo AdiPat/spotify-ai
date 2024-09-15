@@ -67,8 +67,8 @@ export class SpotifyAI {
         prompt: `Generate genre seeds for the description "${description}"`,
         system: `You are a Spotify AI agent that does advanced music analysis. You have access to all the data on Spotify. 
           You are given the list of genres and descriptions that are available on Spotify.
-          You need to generate genre seeds from the given list based on the description.
-          Genres: ${JSON.stringify(Data.GenreMetadata)}`,
+          You need to generate genre seeds only from the given list based on the description.
+          Genres: ${JSON.stringify(Data.GenreSeeds)}`,
       });
 
       if (this.verbose) {
@@ -186,6 +186,8 @@ export class SpotifyAI {
           system:
             "You are a Spotify AI agent that does advanced music analysis. You have access to all the data on Spotify.",
         });
+
+      recommendationsParams.seed_genres = await this.generateGenreSeeds(description);
 
       return recommendationsParams;
     } catch (error) {
