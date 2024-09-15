@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-import { SpotifyApi, Track } from "@spotify/web-api-ts-sdk";
+import { AudioFeatures, SpotifyApi, Track } from "@spotify/web-api-ts-sdk";
 import { Utils } from "../common";
 import {
   NaturalLanguageSearchOptions,
@@ -187,7 +187,173 @@ export class SpotifyAI {
             "You are a Spotify AI agent that does advanced music analysis. You have access to all the data on Spotify.",
         });
 
-      recommendationsParams.seed_genres = await this.generateGenreSeeds(description);
+      recommendationsParams.seed_genres = await this.generateGenreSeeds(
+        description
+      );
+
+      return recommendationsParams;
+    } catch (error) {
+      if (this.verbose) {
+        console.log(
+          "generateRecommendationParams: generation of object failed",
+          error
+        );
+      }
+
+      return null;
+    }
+  }
+
+  /**
+   *
+   * Generate a natural language description for a given track and audio features.
+   * @param param - Object containing track and audio features.
+   * @returns Natural language description of track.
+   *
+   */
+  private async generateTrackDescription({
+    track,
+    audioFeatures,
+  }: {
+    track: Track;
+    audioFeatures: AudioFeatures;
+  }): Promise<string> {
+    try {
+      const artistNames = track.artists.map((artist) => artist.name).join(",");
+
+      const { object } = await Utils.generateObject<{
+        trackDescription: string;
+      }>({
+        schema: z.object({
+          trackDescription: z.string(),
+        }),
+        schemaName: "TrackDescription",
+        prompt: `Generate a natural language description for the track "${
+          track.name
+        } by ${artistNames} in 2 lines."
+        Audio Features: """${JSON.stringify(audioFeatures)}""" 
+        `,
+        system:
+          "You are a Spotify AI agent that does advanced music analysis. You have access to all the data on Spotify.",
+      });
+
+      if (this.verbose) {
+        console.log(
+          "generateTrackDescription: Generated track description: ",
+          object.trackDescription
+        );
+      }
+
+      return object.trackDescription;
+    } catch (err) {
+      if (this.verbose) {
+        console.error(
+          "generateTrackDescription: Failed to generate track description.",
+          err
+        );
+      }
+      return "";
+    }
+  }
+
+  /**
+   * Generate recommendation parameters for a given track and audio features.
+   *
+   * @param trackId Spotify track ID.
+   * @param audioFeatures Audio features of the track.
+   * @returns Recommendations parameters and null if generation failed.
+   *
+   */
+  private async generateRecommendationParamsUsingTrack({
+    track,
+    audioFeatures,
+  }: {
+    track: Track;
+    audioFeatures: AudioFeatures;
+  }): Promise<RecommendationsParams> {
+    try {
+      const { object: recommendationsParams } =
+        await Utils.generateObject<RecommendationsParams>({
+          schema: z.object({
+            seed_genres: z.array(z.string()),
+            market: z.string(),
+
+            min_acousticness: z.number(),
+            max_acousticness: z.number(),
+            target_acousticness: z.number(),
+
+            min_danceability: z.number(),
+            max_danceability: z.number(),
+            target_danceability: z.number(),
+
+            min_duration_ms: z.number(),
+            max_duration_ms: z.number(),
+            target_duration_ms: z.number(),
+
+            min_energy: z.number(),
+            max_energy: z.number(),
+            target_energy: z.number(),
+
+            min_instrumentalness: z.number(),
+            max_instrumentalness: z.number(),
+            target_instrumentalness: z.number(),
+
+            min_key: z.number(),
+            max_key: z.number(),
+            target_key: z.number(),
+
+            min_liveness: z.number(),
+            max_liveness: z.number(),
+            target_liveness: z.number(),
+
+            min_loudness: z.number(),
+            max_loudness: z.number(),
+            target_loudness: z.number(),
+
+            min_mode: z.number(),
+            max_mode: z.number(),
+            target_mode: z.number(),
+
+            min_popularity: z.number(),
+            max_popularity: z.number(),
+            target_popularity: z.number(),
+
+            min_speechiness: z.number(),
+            max_speechiness: z.number(),
+            target_speechiness: z.number(),
+
+            min_tempo: z.number(),
+            max_tempo: z.number(),
+            target_tempo: z.number(),
+
+            min_valence: z.number(),
+            max_valence: z.number(),
+            target_valence: z.number(),
+          }),
+          schemaName: "RecommendationsParams",
+          prompt: `Generate recommendation parameters for the given track "${
+            track.name
+          } by ${track.artists.join(",")}"
+                   and audio features. 
+                   Audio Features: """${JSON.stringify(audioFeatures)}"""`,
+          system:
+            "You are a Spotify AI agent that does advanced music analysis. You have access to all the data on Spotify.",
+        });
+
+      recommendationsParams.market = track.available_markets[0];
+
+      const description = await this.generateTrackDescription({
+        track,
+        audioFeatures,
+      });
+
+      // recommendationsParams.seed_genres = await this.generateGenreSeeds(
+      //   description
+      // );
+
+      recommendationsParams.seed_genres = [];
+      recommendationsParams.seed_artists = track.artists.map((a) => a.id);
+      // recommendationsParams.seed_tracks = [track.id];
 
       return recommendationsParams;
     } catch (error) {
@@ -281,6 +447,125 @@ export class SpotifyAI {
 
       recommendationsParams = await this.generateRecommendationParams(
         description
+      );
+
+      const moreRecommendations = await this.api.recommendations.get(
+        recommendationsParams
+      );
+
+      recommendations.tracks = recommendations.tracks.concat(
+        moreRecommendations.tracks
+      );
+    }
+
+    if (options.printResults) {
+      const printableTracks = recommendations.tracks.map((track: Track) => ({
+        id: track.id,
+        name: track.name,
+        artists: track.artists.map((artist) => artist.name).join(", "),
+        url: track.external_urls.spotify,
+      }));
+
+      const uniquePrintableTracks = printableTracks.filter(
+        (track: any, index: number, self: any) =>
+          index ===
+          self.findIndex((t: any) => t.id === track.id && t.name === track.name)
+      );
+
+      console.table(uniquePrintableTracks);
+    }
+
+    return recommendations.tracks;
+  }
+
+  public async getSimilarTracks(
+    trackId: string,
+    options: { limit: number; printResults: boolean }
+  ) {
+    const track = await this.api.tracks.get(trackId).catch((error) => {
+      if (this.verbose) {
+        console.error("getSimilarTracks: Error getting track", error);
+      }
+    });
+
+    if (!track) {
+      console.error("getSimilarTracks: Failed to get track.");
+      return;
+    }
+
+    const audioFeatures = await this.api.tracks
+      .audioFeatures(trackId)
+      .catch((error) => {
+        if (this.verbose) {
+          console.error(
+            "getSimilarTracks: Error getting audio features",
+            error
+          );
+        }
+      });
+
+    if (!audioFeatures) {
+      console.error("getSimilarTracks: Failed to get audio features.");
+      return;
+    }
+
+    let recommendationsParams =
+      await this.generateRecommendationParamsUsingTrack({
+        track,
+        audioFeatures,
+      });
+
+    recommendationsParams.limit = options.limit ?? SpotifyAI.DEFAULT_LIMIT;
+
+    if (this.verbose) {
+      console.log(
+        "getSimilarTracks: Recommendations Params: ",
+        recommendationsParams
+      );
+    }
+
+    let recommendations = await this.api.recommendations
+      .get(recommendationsParams)
+      .catch((error) => {
+        if (this.verbose) {
+          console.error(
+            "naturalLanguageSearch: Error getting recommendations",
+            error
+          );
+        }
+        return null;
+      });
+
+    if (!recommendations) {
+      console.error("naturalLanguageSearch: Failed to get recommendations.");
+      return [];
+    }
+
+    if (this.verbose) {
+      console.log(
+        "naturalLanguageSearch: Recommendations count: ",
+        recommendations.tracks.length,
+        " | Options.limit:",
+        options.limit
+      );
+    }
+
+    while (recommendations.tracks.length < options.limit) {
+      if (this.verbose) {
+        console.log(
+          "naturalLanguageSearch: Getting more recommendations to reach limit."
+        );
+        console.log(
+          "naturalLanguageSearch: Current recommendations count: ",
+          recommendations.tracks.length
+        );
+      }
+
+      recommendationsParams = await this.generateRecommendationParamsUsingTrack(
+        {
+          track,
+          audioFeatures,
+        }
       );
 
       const moreRecommendations = await this.api.recommendations.get(

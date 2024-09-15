@@ -6,9 +6,10 @@ async function run() {
 
   program
     .option(
-      "--get-similar --trackId <trackId> <N>",
+      "--get-similar",
       "Get N similar songs for a given Spotify track ID."
     )
+    .option("--track-id <trackId>", "Spotify track ID.")
     .option(
       "--search-track <name> <N>",
       "Search for a Spotify track by name and get N results."
@@ -38,7 +39,9 @@ async function run() {
   if (verbose) {
     console.log("Options: ", opts);
   }
+
   const {
+    getSimilar,
     trackId,
     N,
     name,
@@ -51,6 +54,28 @@ async function run() {
   if (N !== undefined && isNaN(N)) {
     console.error("Error: N must be a number.");
     process.exit(1);
+  }
+
+  if (getSimilar && !trackId) {
+    console.error("Error: Track ID is required for getting similar tracks.");
+    process.exit(1);
+  }
+
+  if (getSimilar && trackId) {
+    if (verbose) {
+      console.log("Getting similar tracks for track ID: ", trackId);
+    }
+
+    const spotifyAI = new SpotifyAI({ verbose });
+
+    const similarOptions = {
+      limit: parseInt(N) || 5,
+      printResults: true,
+    };
+
+    await spotifyAI.getSimilarTracks(trackId, similarOptions);
+
+    process.exit(0);
   }
 
   if (naturalSearch && !description) {
