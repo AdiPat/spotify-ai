@@ -33,12 +33,20 @@ async function run() {
 
   const opts = program.opts();
 
-  console.log("Options: ", opts);
-
-  const { trackId, N, name, playlistId, naturalSearch, description, help } =
-    opts;
-
   const verbose = Boolean(opts.verbose);
+
+  if (verbose) {
+    console.log("Options: ", opts);
+  }
+  const {
+    trackId,
+    N,
+    name,
+    playlistId,
+    naturalSearch,
+    description,
+    help,
+  } = opts;
 
   if (N !== undefined && isNaN(N)) {
     console.error("Error: N must be a number.");
